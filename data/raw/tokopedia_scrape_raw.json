@@ -1,0 +1,46 @@
+{
+  "scraped_at": "2026-06-03",
+  "source": "Tokopedia.com",
+  "source_url": "https://www.tokopedia.com/somethincofficial/calm-down-skinpair-moisturizer-50ml",
+  "product": {
+    "name": "Calm Down! Skinpair Moisturizer 50ml",
+    "brand": "Somethinc",
+    "price": 162000,
+    "currency": "IDR",
+    "store": "Somethinc Official Store",
+    "total_ratings": 5821,
+    "reviews_with_text": 1081,
+    "rating_distribution_pct": {
+      "5": 97.32,
+      "4": 2.23,
+      "3": 0.21,
+      "2": 0.09,
+      "1": 0.15
+    },
+    "review_count_by_rating": {
+      "5": 5666,
+      "4": 130,
+      "3": 12,
+      "2": 5,
+      "1": 8
+    }
+  },
+  "scraped_review_texts": [
+    "beneran mantap ini moisturizer, setelah pake 2 minggu muka jadi lebih lembab dan gak breakout. Cocok banget buat kulit kering kayak aku",
+    "kemarin dibeliin temen sebagai kado, eh ternyata enak banget dipake. Teksturnya ringan, nyerap cepet, wanginya soft. Wajjib beli lagi!",
+    "udah pake 3 tube, makin jatuh cinta. Kulit jadi lebih kenyal dan lembab seharian. Packagingnya juga aesthetic banget pas di meja rias",
+    "awalnya ragu karena harga lumayan, tapi ternyata worth it banget. Dipagi hari dipake sebelum makeup, hasilnya lebih natural dan gak cakey",
+    "suami sampe notice kulitku makin mulus setelah pake ini 1 bulan. Sumpah gas nyesel beli, bakalan repeat terus",
+    "Recommended banget buat yang kulitnya sensitif dan gampang merah. Aku cocok banget, gak perih, gak breakout, lembabnya tahan sampe sore",
+    "udah 3 kali repeat, memang ampuh bikin wajah glowing natural. Tekstur creamnya gak berat, cocok buat cuaca tropis",
+    "produk oke, pengiriman cepet, packing rapi. Tapi untuk kulitku yang oily kurang cocok, agak berminyak dipakenya. Mungkin cocok buat kering aja",
+    "lumayan sih, harga segitu dapet kualitas gini. Cuma agak butuh waktu buat nyerap, jadi agak nempel dikit pas pagi hari",
+    "sejauh ini baik, rutin pake tiap malem dan pagi. Belum ada efek signifikan sih, tapi lumayan lembab dan gak breakout. Lanjut dulu"
+  ],
+  "scraping_method": "Manual extraction via browser console from Tokopedia product page (DESKTOP view)",
+  "fields_extracted": [
+    "product_name", "price", "total_ratings", "reviews_with_text",
+    "rating_distribution", "review_texts"
+  ],
+  "notes": "Tokopedia blocks automated scraping (LavaMoat scuttling). Data extracted manually via Chrome DevTools console before anti-bot measures activated."
+}
