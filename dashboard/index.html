@@ -723,25 +723,36 @@ function render(){
       {plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:{...F,callback:function(v){return v+'%'}},grid:{color:C.grid}}}}
     );
 
-    var somProds_s=Object.entries(adSom.suspicious_by_product||{}).slice(0,3);
-    var sknProds_s=Object.entries(adSkn.suspicious_by_product||{}).slice(0,3);
+    var somEx=(adSom.suspicious_examples||[]).slice(0,2);
+    var sknEx=(adSkn.suspicious_examples||[]).slice(0,2);
     var ah=document.getElementById('anomaly-highlights');
     if(ah){
       ah.innerHTML=
         '<div class="card" style="border-left:3px solid '+C.neg+'">'+
           '<div class="card-title">Total Suspicious</div>'+
           '<div style="font-size:38px;font-weight:800;color:'+C.neg+'">'+ao.total_suspicious+'</div>'+
-          '<div style="font-size:13px;color:'+C.text+'">'+ao.suspicious_pct+'% of all reviews</div>'+
+          '<div style="font-size:13px;color:'+C.text+'">'+ao.suspicious_pct+'% of all reviews — high rating + low sentiment</div>'+
+          '<div style="font-size:12px;color:'+C.text+';margin-top:4px">Avg rating: '+ao.avg_rating_of_suspicious+' · Avg sentiment: '+ao.avg_sentiment_of_suspicious+'</div>'+
         '</div>'+
         '<div class="card" style="border-left:3px solid '+C.som+'">'+
-          '<div class="card-title">Somethinc</div>'+
-          somProds_s.map(function(e){return'<span class="badge xs outline som">'+e[0]+': '+e[1]+'</span>'}).join(' ')+
-          '<div style="font-size:12px;color:'+C.text+';margin-top:6px">Rating avg of suspicious: '+(adSom.suspicious_avg_rating||'-')+'</div>'+
+          '<div class="card-title">Somethinc — Suspicious Samples</div>'+
+          somEx.map(function(ex){
+            var snippet = ex.text_sample.length > 80 ? ex.text_sample.slice(0,80)+'...' : ex.text_sample;
+            return '<div style="font-size:12px;margin-bottom:8px;padding:8px;background:'+C.somAlpha+';border-radius:6px">'+
+              '<span style="font-weight:600">'+ex.product+'</span> <span style="color:'+C.text+'">'+"⭐"+ex.rating+' · sentiment '+ex.sentiment_score+'</span><br>'+
+              '<span style="font-style:italic;color:'+C.text+'">"'+snippet+'"</span></div>';
+          }).join('')+
+          '<div style="font-size:11px;color:'+C.text+'">'+adSom.total_suspicious+' suspicious reviews · '+adSom.suspicious_pct+'%</div>'+
         '</div>'+
         '<div class="card" style="border-left:3px solid '+C.skn+'">'+
-          '<div class="card-title">Skintific</div>'+
-          sknProds_s.map(function(e){return'<span class="badge xs outline skn">'+e[0]+': '+e[1]+'</span>'}).join(' ')+
-          '<div style="font-size:12px;color:'+C.text+';margin-top:6px">Rating avg of suspicious: '+(adSkn.suspicious_avg_rating||'-')+'</div>'+
+          '<div class="card-title">Skintific — Suspicious Samples</div>'+
+          sknEx.map(function(ex){
+            var snippet = ex.text_sample.length > 80 ? ex.text_sample.slice(0,80)+'...' : ex.text_sample;
+            return '<div style="font-size:12px;margin-bottom:8px;padding:8px;background:'+C.sknAlpha+';border-radius:6px">'+
+              '<span style="font-weight:600">'+ex.product+'</span> <span style="color:'+C.text+'">'+"⭐"+ex.rating+' · sentiment '+ex.sentiment_score+'</span><br>'+
+              '<span style="font-style:italic;color:'+C.text+'">"'+snippet+'"</span></div>';
+          }).join('')+
+          '<div style="font-size:11px;color:'+C.text+'">'+adSkn.total_suspicious+' suspicious reviews · '+adSkn.suspicious_pct+'%</div>'+
         '</div>';
     }
   }
@@ -806,7 +817,8 @@ function render(){
 
     var somRP=rp.somethinc?.most_repeated_products||{};
     var sknRP=rp.skintific?.most_repeated_products||{};
-    var allRP=[].concat(Object.keys(somRP),Object.keys(sknRP)).filter(function(v,i,a){return a.indexOf(v)===i}).slice(0,8);
+    var allRPMerged={};Object.keys(somRP).forEach(function(k){allRPMerged[k]=(allRPMerged[k]||0)+somRP[k]});Object.keys(sknRP).forEach(function(k){allRPMerged[k]=(allRPMerged[k]||0)+sknRP[k]});
+    var allRP=Object.keys(allRPMerged).sort(function(a,b){return allRPMerged[b]-allRPMerged[a]}).slice(0,8);
     if(allRP.length){
       mkChart('c-repeat-prod','bar',
         {

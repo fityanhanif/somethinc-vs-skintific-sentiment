@@ -891,33 +891,13 @@
         "5": 833
       },
       "most_praised_words": {
-        "pake": 744,
-        "setelah": 478,
-        "kulit": 448,
-        "brand": 389,
         "sehat": 308,
-        "merah": 302,
-        "jadi": 297,
         "beneran": 263,
-        "skincare": 258,
         "repeat": 210,
-        "somethinc": 203,
-        "banget": 198,
-        "minggu": 195,
-        "emang": 187,
-        "lebih": 181
+        "banget": 198
       },
       "most_complained_words": {
-        "mahal": 121,
-        "tapi": 102,
-        "emang": 102,
-        "beneran": 102,
-        "bagus": 102,
-        "teksturnya": 102,
-        "ringan": 102,
-        "nyerap": 102,
-        "cepet": 102,
-        "lengket": 102
+        "mahal": 121
       }
     },
     "skintific": {
@@ -935,32 +915,15 @@
         "5": 653
       },
       "most_praised_words": {
-        "buat": 775,
         "cocok": 460,
-        "langsung": 351,
-        "harga": 313,
-        "ternyata": 284,
         "enak": 284,
-        "juga": 261,
-        "segini": 227,
-        "diskon": 223,
         "lumayan": 187,
-        "gapake": 187,
-        "lama": 187,
         "lembab": 187,
-        "cuma": 187,
         "wanginya": 187
       },
       "most_complained_words": {
-        "pake": 97,
         "lama": 70,
-        "setelah": 45,
-        "minggu": 45,
-        "mungkin": 45,
-        "hasilnya": 40,
         "biasa": 40,
-        "lebih": 36,
-        "banyak": 35,
         "breakout": 34
       }
     },
@@ -1505,7 +1468,7 @@
       "suspicious_pct": 4.8,
       "avg_rating_of_suspicious": 4.77,
       "avg_sentiment_of_suspicious": 4.86,
-      "suspicious_alert": "✅ Masih dalam batas normal"
+      "suspicious_alert": "\u2705 Masih dalam batas normal"
     },
     "somethinc": {
       "total_suspicious": 31,
