@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Shop Sentiment — Somethinc vs Skintific</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ═══ HEADER ═══ -->
+  <header class="dash-header">
+    <div class="dash-header-left">
+      <div class="dash-logo">TS</div>
+      <div class="dash-title">
+        <h1>TikTok Shop Sentiment Analyzer</h1>
+        <span>Somethinc vs Skintific · Data Analyst Project</span>
+      </div>
+    </div>
+    <div class="dash-header-right">
+      <span class="badge badge-somethinc">Somethinc</span>
+      <span class="badge badge-skintific">Skintific</span>
+      <span style="font-size:12px;color:var(--text-muted);">2,000 reviews</span>
+    </div>
+  </header>
+
+  <!-- ═══ TAB NAV ═══ -->
+  <nav class="tab-nav">
+    <button class="tab-btn active" data-tab="tab-overview" onclick="void(0)">📊 Overview</button>
+    <button class="tab-btn" data-tab="tab-products" onclick="void(0)">🧴 Product Analysis</button>
+    <button class="tab-btn" data-tab="tab-competitive" onclick="void(0)">🏆 Competitive</button>
+    <button class="tab-btn" data-tab="tab-operations" onclick="void(0)">📦 Operations</button>
+    <button class="tab-btn" data-tab="tab-pricing" onclick="void(0)">💰 Price & Affiliate</button>
+    <button class="tab-btn" data-tab="tab-anomaly" onclick="void(0)">🔍 Anomaly & Trends</button>
+    <button class="tab-btn" data-tab="tab-customer" onclick="void(0)">❤️ Customer Insights</button>
+  </nav>
+
+  <!-- ═══ MAIN ═══ -->
+  <main class="dash-main" id="dash-content">
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 1: OVERVIEW -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content active" id="tab-overview">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">📊 Sentiment Overview</h2>
+          <p class="section-subtitle">Ringkasan sentimen TikTok Shop — Somethinc vs Skintific</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Total Reviews</div>
+          <div class="kpi-value" id="kpi-total-reviews">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc Avg Rating</div>
+          <div class="kpi-value" id="kpi-som-rating" style="color:var(--accent-cyan);">—</div>
+          <div class="kpi-delta" id="kpi-som-delta"></div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific Avg Rating</div>
+          <div class="kpi-value" id="kpi-skn-rating" style="color:var(--accent-purple);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">⚠️ Anomali Terdeteksi</div>
+          <div class="kpi-value" id="kpi-anomalies" style="color:var(--accent-red);">—</div>
+        </div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-green);"></span> Distribusi Sentimen</div>
+          <div style="max-height:260px;display:flex;justify-content:center;"><canvas id="chart-sentiment-dist" height="260" style="max-width:320px;"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Brand Comparison</div>
+          <canvas id="chart-brand-compare" height="260"></canvas>
+        </div>
+        <div class="chart-card" style="grid-column:span 1;">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-yellow);"></span> Rating Distribution</div>
+          <canvas id="chart-rating-dist" height="260"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="overview-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon" style="background:rgba(34,197,94,0.15);">📊</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 2: PRODUCT ANALYSIS -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-products">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">🧴 Product Analysis</h2>
+          <p class="section-subtitle">1. Peningkatan Produk · 3. Evaluasi Fitur</p>
+        </div>
+      </div>
+
+      <div class="alert alert-info">🔬 Analisis per produk: tingkat komplain, aspek paling bermasalah, dan saran perbaikan.</div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Somethinc — Negatif % per Produk</div>
+          <canvas id="chart-som-product-issues" height="300"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-purple);"></span> Skintific — Negatif % per Produk</div>
+          <canvas id="chart-skn-product-issues" height="300"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Somethinc — Aspek Komplain Matrix</div>
+          <canvas id="chart-feature-heatmap-som" height="250"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-purple);"></span> Skintific — Aspek Komplain Matrix</div>
+          <canvas id="chart-feature-heatmap-skn" height="250"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="product-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 3: COMPETITIVE -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-competitive">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">🏆 Competitive Benchmark</h2>
+          <p class="section-subtitle">2. Keunggulan Kompetitor · Sentiment Gap Analysis</p>
+        </div>
+      </div>
+
+      <div class="alert alert-info">📊 Perbandingan sentimen per aspek antara Somethinc dan Skintific. Hijau = Somethinc unggul, Ungu = Skintific unggul.</div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Perbandingan Aspek — Radar</div>
+          <canvas id="chart-aspect-radar" height="300"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Sentimen Gap (Somethinc − Skintific)</div>
+          <canvas id="chart-sentiment-gap" height="300"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Most Praised — Somethinc</div>
+          <canvas id="chart-som-praised" height="250"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-purple);"></span> Most Praised — Skintific</div>
+          <canvas id="chart-skn-praised" height="250"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="competitive-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 4: OPERATIONS -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-operations">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">📦 Operational Issues</h2>
+          <p class="section-subtitle">4. Kendala Operasional · Logistic Sentiment</p>
+        </div>
+      </div>
+
+      <div class="alert alert-warning">⚠️ Banyak review rendah karena operasional (pengiriman, packing, CS) — bukan karena kualitas produk. Ini "false negatives" yang bisa diperbaiki.</div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc — Ops Mentions</div>
+          <div class="kpi-value" id="kpi-som-ops-pct" style="color:var(--accent-cyan);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc — Rating dgn Ops</div>
+          <div class="kpi-value" id="kpi-som-ops-rating" style="color:var(--accent-cyan);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc — Rating tanpa Ops</div>
+          <div class="kpi-value" id="kpi-som-noops-rating" style="color:var(--accent-green);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc — False Negatives</div>
+          <div class="kpi-value" id="kpi-som-false-neg" style="color:var(--accent-orange);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific — Ops Mentions</div>
+          <div class="kpi-value" id="kpi-skn-ops-pct" style="color:var(--accent-purple);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific — Rating dgn Ops</div>
+          <div class="kpi-value" id="kpi-skn-ops-rating" style="color:var(--accent-purple);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific — Rating tanpa Ops</div>
+          <div class="kpi-value" id="kpi-skn-noops-rating" style="color:var(--accent-green);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific — False Negatives</div>
+          <div class="kpi-value" id="kpi-skn-false-neg" style="color:var(--accent-orange);">—</div>
+        </div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Somethinc — Issue Breakdown</div>
+          <canvas id="chart-ops-som" height="280"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-purple);"></span> Skintific — Issue Breakdown</div>
+          <canvas id="chart-ops-skn" height="280"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="ops-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 5: PRICE & AFFILIATE -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-pricing">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">💰 Price Sensitivity & Affiliate</h2>
+          <p class="section-subtitle">5. Sensitivitas Harga · 7. Pengaruh Afiliator</p>
+        </div>
+      </div>
+
+      <div class="alert alert-warning">💡 Apakah rating bagus karena kualitas atau efek diskon/afiliator? Cek analisis di bawah.</div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-blue);"></span> Price Sensitivity — Rating Comparison</div>
+          <canvas id="chart-price-sensitivity" height="260"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-green);"></span> Discount Effect on Rating</div>
+          <canvas id="chart-discount-effect" height="260"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-pink);"></span> Affiliate vs Organic Rating</div>
+          <canvas id="chart-affiliate-comparison" height="260"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-red);"></span> Rating Inflation (Affiliate − Organic)</div>
+          <canvas id="chart-rating-inflation" height="260"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="price-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 6: ANOMALY & TRENDS -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-anomaly">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">🔍 Anomaly Detection & Trends</h2>
+          <p class="section-subtitle">9. Anomali Data · 10. Tren Waktu</p>
+        </div>
+      </div>
+
+      <div class="alert alert-danger">🚨 Bintang 5 tapi teksnya mengeluh? Ini indikasi fake review atau ulasan afiliator tidak jujur.</div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-red);"></span> Suspicious Reviews by Brand</div>
+          <div style="max-height:240px;display:flex;justify-content:center;"><canvas id="chart-anomaly-brand" height="240" style="max-width:260px;"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-orange);"></span> Suspicious % of Total Reviews</div>
+          <canvas id="chart-anomaly-pct" height="240"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-green);"></span> Weekly Sentiment Pattern</div>
+          <canvas id="chart-weekly-pattern" height="240"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-purple);"></span> Peak Complaint Deviation</div>
+          <canvas id="chart-peak-complaints" height="240"></canvas>
+        </div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-card" style="grid-column:1/-1;">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-cyan);"></span> Sentiment Timeline — Brand Comparison</div>
+          <canvas id="chart-timeline" height="260" style="max-height:260px;"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="anomaly-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- TAB 7: CUSTOMER INSIGHTS -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <section class="tab-content" id="tab-customer">
+      <div class="section-header">
+        <div>
+          <h2 class="section-title">❤️ Customer Loyalty & R&D</h2>
+          <p class="section-subtitle">6. Permintaan Pasar · 8. Loyalitas Konsumen</p>
+        </div>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc Repeat Rate</div>
+          <div class="kpi-value" id="kpi-som-repeat" style="color:var(--accent-cyan);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific Repeat Rate</div>
+          <div class="kpi-value" id="kpi-skn-repeat" style="color:var(--accent-purple);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Somethinc Feature Requests</div>
+          <div class="kpi-value" id="kpi-som-requests" style="color:var(--accent-cyan);">—</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Skintific Feature Requests</div>
+          <div class="kpi-value" id="kpi-skn-requests" style="color:var(--accent-purple);">—</div>
+        </div>
+      </div>
+
+      <div class="chart-grid">
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-green);"></span> Most Repeated Products</div>
+          <canvas id="chart-repeat-product" height="300"></canvas>
+        </div>
+        <div class="chart-card">
+          <div class="chart-card-title"><span class="dot" style="background:var(--accent-yellow);"></span> Most Requested Products (R&D)</div>
+          <canvas id="chart-feature-requests" height="300"></canvas>
+        </div>
+      </div>
+
+      <div class="insight-grid" id="customer-insights">
+        <div class="insight-card"><div class="insight-card-header"><div class="insight-icon">⏳</div><h4>Memuat...</h4></div><p>Menunggu data...</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="dash-footer">
+    TikTok Shop Sentiment Analyzer · Somethinc vs Skintific · Built by Fityan Hanif · Data Analyst Portfolio Project
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1462 @@
+{
+  "01_product_improvement": {
+    "Acne Pore Serum": {
+      "total_reviews": 120,
+      "negative_reviews": 49,
+      "negative_pct": 40.8,
+      "avg_rating": 3.55,
+      "avg_sentiment": 0.15,
+      "aspect_complaints": {
+        "kecocokan_kulit": {
+          "count": 25,
+          "pct": 51.0,
+          "samples": [
+            "Kemasan jelek, Kemasannyanya kayak minyak. Kayaknya gak cocok sama normal....",
+            "Aku punya kulit kering sensitif dan ini cocok banget. Gak bikin breakout, pori-pori mengecil. Recommended buat kalian ya...",
+            "Pas pertama pake lumayan tapi lama-lama kok makin jelek. rasanya perih. No repeat!..."
+          ]
+        },
+        "hasil": {
+          "count": 21,
+          "pct": 42.9,
+          "samples": [
+            "Aku punya kulit kering sensitif dan ini cocok banget. Gak bikin breakout, pori-pori mengecil. Recommended buat kalian ya...",
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. perih pas dipake. No repeat!...",
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. komedo malah nambah. No repeat!..."
+          ]
+        },
+        "kemasan": {
+          "count": 12,
+          "pct": 24.5,
+          "samples": [
+            "Kemasan jelek, Kemasannyanya kayak minyak. Kayaknya gak cocok sama normal....",
+            "Pengirimannya lama banget, gak ada double box. Terus pas sampe, kemasan rusak. Bintang 1 buat operasionalnya....",
+            "Pengirimannya lama banget, gak ada double box. Terus pas sampe, bocor. Bintang 1 buat operasionalnya...."
+          ]
+        },
+        "harga": {
+          "count": 7,
+          "pct": 14.3,
+          "samples": [
+            "Overrated banget. Harganya mahal tapi kualitas gak istimewa. Mending beli Skintific Mending Skintific lebih murah....",
+            "Overrated banget. Harganya gak sebanding tapi kualitas gak istimewa. Mending beli Avoskin...",
+            "Overrated banget. Harganya terlalu mahal tapi kualitas standar. Mending beli Scarlett Mending Skintific lebih bagus...."
+          ]
+        },
+        "tekstur": {
+          "count": 5,
+          "pct": 10.2,
+          "samples": [
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama berminyak....",
+            "Kemasan jelek, PHnyanya lengket banget. Kayaknya gak cocok sama berjerawat....",
+            "Kemasan jelek, Hasilnyanya berat di muka. Kayaknya gak cocok sama kering sensitif...."
+          ]
+        },
+        "aroma": {
+          "count": 3,
+          "pct": 6.1,
+          "samples": [
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama berminyak....",
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah repeat berkali-kali....",
+            "Kemasan jelek, Wanginyanya kayak minyak. Kayaknya gak cocok sama berminyak...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "lama": 26,
+        "banget": 24,
+        "tapi": 23,
+        "udah": 16,
+        "cocok": 15,
+        "kali": 15,
+        "jelek": 14,
+        "repeat": 14,
+        "beli": 14,
+        "makin": 12
+      }
+    },
+    "Clay Mask": {
+      "total_reviews": 134,
+      "negative_reviews": 54,
+      "negative_pct": 40.3,
+      "avg_rating": 3.6,
+      "avg_sentiment": 0.69,
+      "aspect_complaints": {
+        "kecocokan_kulit": {
+          "count": 28,
+          "pct": 51.9,
+          "samples": [
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. beruntusan muncul dimana-mana. No repeat!...",
+            "Gak cocok di kulitku yang kombinasi. gak nyerap ke kulit. Sayang banget, uang keluar percuma. Mending Skintific lebih ba...",
+            "Beneran works! PHnyanya ringan, gak lengket, nggak bikin breakout. kombinasi berminyak friendly banget. Big yes!..."
+          ]
+        },
+        "hasil": {
+          "count": 26,
+          "pct": 48.1,
+          "samples": [
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. beruntusan muncul dimana-mana. No repeat!...",
+            "Udah beberapa kali kali beli, gak pernah mengecewakan. Kandungannya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Udah beberapa kali kali beli, gak pernah mengecewakan. PHnya enak, hasilnya keliatan. Udah restock berkali-kali...."
+          ]
+        },
+        "kemasan": {
+          "count": 18,
+          "pct": 33.3,
+          "samples": [
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama berminyak....",
+            "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama normal....",
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama kombinasi berminyak...."
+          ]
+        },
+        "tekstur": {
+          "count": 13,
+          "pct": 24.1,
+          "samples": [
+            "Lumayan sih, Wanginyanya gak jelek. Tapi agak berat di kulit. Overall okelah buat nyoba....",
+            "Beneran works! PHnyanya ringan, gak lengket, nggak bikin breakout. kombinasi berminyak friendly banget. Big yes!...",
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama berminyak...."
+          ]
+        },
+        "harga": {
+          "count": 11,
+          "pct": 20.4,
+          "samples": [
+            "Overrated banget. Harganya kemahalan tapi kualitas biasa aja. Mending beli Avoskin...",
+            "Lumayan membantu, tapi perlu waktu lebih lama. Harganya agak pricey, mending tunggu diskon aja....",
+            "Overrated banget. Harganya kemahalan tapi kualitas standar. Mending beli Somethinc..."
+          ]
+        },
+        "aroma": {
+          "count": 5,
+          "pct": 9.3,
+          "samples": [
+            "Lumayan sih, Wanginyanya gak jelek. Tapi agak berat di kulit. Overall okelah buat nyoba....",
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama berminyak....",
+            "Kemasan jelek, Wanginyanya lengket banget. Kayaknya gak cocok sama kombinasi berminyak...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "banget": 26,
+        "tapi": 22,
+        "cocok": 20,
+        "kali": 18,
+        "udah": 16,
+        "mending": 15,
+        "beli": 14,
+        "kemasan": 14,
+        "jelek": 13,
+        "bikin": 12
+      }
+    },
+    "Gentle Cleansing Balm": {
+      "total_reviews": 133,
+      "negative_reviews": 52,
+      "negative_pct": 39.1,
+      "avg_rating": 3.29,
+      "avg_sentiment": -0.53,
+      "aspect_complaints": {
+        "hasil": {
+          "count": 29,
+          "pct": 55.8,
+          "samples": [
+            "Ekspektasi tinggi tapi nggak sesuai ekspektasi. Hasilnyanya kasar. Jangan beli....",
+            "Bikin breakout parah!! terasa lengket banget. Udah coba 2 minggu tapi makin parah. Uang sayang...",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba sebulan lebih tapi makin parah. Uang terbuang..."
+          ]
+        },
+        "kecocokan_kulit": {
+          "count": 29,
+          "pct": 55.8,
+          "samples": [
+            "Bikin breakout parah!! terasa lengket banget. Udah coba 2 minggu tapi makin parah. Uang sayang...",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba sebulan lebih tapi makin parah. Uang terbuang...",
+            "Pas pertama pake biasa aja tapi lama-lama hasilnya makin buruk. beruntusan muncul dimana-mana. No repeat!..."
+          ]
+        },
+        "kemasan": {
+          "count": 15,
+          "pct": 28.8,
+          "samples": [
+            "Pengirimannya lama banget, ditaruh di luar pagar. Terus pas sampe, kemasan rusak. Bintang 1 buat operasionalnya....",
+            "Pengirimannya lama banget, gak ada double box. Terus pas sampe, kemasan rusak. Bintang 1 buat operasionalnya....",
+            "Kemasan jelek, Kemasannyanya lengket banget. Kayaknya gak cocok sama berjerawat...."
+          ]
+        },
+        "tekstur": {
+          "count": 13,
+          "pct": 25.0,
+          "samples": [
+            "Ekspektasi tinggi tapi nggak sesuai ekspektasi. Hasilnyanya kasar. Jangan beli....",
+            "Bikin breakout parah!! terasa lengket banget. Udah coba 2 minggu tapi makin parah. Uang sayang...",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba sebulan lebih tapi makin parah. Uang terbuang..."
+          ]
+        },
+        "harga": {
+          "count": 9,
+          "pct": 17.3,
+          "samples": [
+            "Overrated banget. Harganya overpriced tapi kualitas biasa aja. Mending beli Somethinc...",
+            "Overrated banget. Harganya gak sebanding tapi kualitas biasa aja. Mending beli Somethinc...",
+            "Overrated banget. Harganya overpriced tapi kualitas standar. Mending beli Somethinc..."
+          ]
+        },
+        "aroma": {
+          "count": 2,
+          "pct": 3.8,
+          "samples": [
+            "Ekspektasi tinggi tapi biasa aja. Wanginyanya gak enak. No repeat....",
+            "Kemasan jelek, Wanginyanya berat di muka. Kayaknya gak cocok sama kombinasi berminyak...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "tapi": 28,
+        "banget": 27,
+        "parah": 20,
+        "bikin": 17,
+        "cocok": 17,
+        "udah": 16,
+        "breakout": 15,
+        "makin": 13,
+        "uang": 13,
+        "lama": 13
+      }
+    },
+    "Glow Maker Moisturizer": {
+      "total_reviews": 109,
+      "negative_reviews": 46,
+      "negative_pct": 42.2,
+      "avg_rating": 3.49,
+      "avg_sentiment": -0.61,
+      "aspect_complaints": {
+        "kecocokan_kulit": {
+          "count": 20,
+          "pct": 43.5,
+          "samples": [
+            "Aku punya kulit berminyak dan ini cocok banget. Gak bikin breakout, minyak wajah berkurang. Recommended buat kalian yang...",
+            "Kemasan jelek, PHnyanya kayak plastik. Kayaknya gak cocok sama berminyak....",
+            "Gak cocok di kulitku yang kombinasi. beruntusan muncul dimana-mana. Sayang banget, uang terbuang...."
+          ]
+        },
+        "hasil": {
+          "count": 17,
+          "pct": 37.0,
+          "samples": [
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah restock berkali-kali....",
+            "Aku punya kulit berminyak dan ini cocok banget. Gak bikin breakout, minyak wajah berkurang. Recommended buat kalian yang...",
+            "katanya sih best seller jadi aku beli. udah berkali-kali kali beli, gak pernah mengecewakan. Kemasannya enak, hasilnya k..."
+          ]
+        },
+        "kemasan": {
+          "count": 16,
+          "pct": 34.8,
+          "samples": [
+            "Pengirimannya lama banget, packingnya bubble wrap doang. Terus pas sampe, segel rusak. Bintang 1 buat operasionalnya....",
+            "Kemasan jelek, PHnyanya kayak plastik. Kayaknya gak cocok sama berminyak....",
+            "Kemasan jelek, Formulanyanya gak enak. Kayaknya gak cocok sama normal...."
+          ]
+        },
+        "tekstur": {
+          "count": 9,
+          "pct": 19.6,
+          "samples": [
+            "Pengirimannya lama banget, packingnya bubble wrap doang. Terus pas sampe, segel rusak. Bintang 1 buat operasionalnya....",
+            "Pengirimannya lama banget, gak pake dus. Terus pas sampe, segel rusak. Bintang 1 buat operasionalnya....",
+            "Ekspektasi tinggi tapi mengecewakan. Kemasannyanya lengket banget. Kapok...."
+          ]
+        },
+        "harga": {
+          "count": 6,
+          "pct": 13.0,
+          "samples": [
+            "Lumayan membantu, tapi bikin sedikit berminyak. Harganya agak mahal tapi ok, mending tunggu diskon aja....",
+            "Cocok banget buat kulit kombinasi berminyak. Awalnya ragu tapi setelah sebulan lebih pemakaian, jerawat mulai kering. Ha...",
+            "Overrated banget. Harganya nggak worth tapi kualitas biasa aja. Mending beli Avoskin..."
+          ]
+        },
+        "aroma": {
+          "count": 2,
+          "pct": 4.3,
+          "samples": [
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah restock berkali-kali....",
+            "Udah beberapa kali kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah repeat berkali-kali...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "banget": 22,
+        "tapi": 19,
+        "udah": 18,
+        "kali": 17,
+        "beli": 15,
+        "cocok": 15,
+        "lama": 12,
+        "bikin": 11,
+        "mengecewakan": 10,
+        "buat": 10
+      }
+    },
+    "Physical Sunscreen SPF50": {
+      "total_reviews": 117,
+      "negative_reviews": 47,
+      "negative_pct": 40.2,
+      "avg_rating": 3.34,
+      "avg_sentiment": -0.47,
+      "aspect_complaints": {
+        "hasil": {
+          "count": 30,
+          "pct": 63.8,
+          "samples": [
+            "Bikin breakout parah!! gak nyerap ke kulit. Udah coba 2 minggu tapi makin parah. Uang percuma...",
+            "Aku punya kulit kering sensitif dan ini cocok banget. Gak bikin breakout, jerawat mulai kering. Recommended buat kalian ...",
+            "Gak cocok di kulitku yang kering. perih pas dipake. Sayang banget, uang keluar percuma...."
+          ]
+        },
+        "kecocokan_kulit": {
+          "count": 24,
+          "pct": 51.1,
+          "samples": [
+            "Gak cocok di kulitku yang kombinasi berminyak. perih pas dipake. Sayang banget, sayang duit. Mending Skintific lebih bag...",
+            "Bikin breakout parah!! gak nyerap ke kulit. Udah coba 2 minggu tapi makin parah. Uang percuma...",
+            "Aku punya kulit kering sensitif dan ini cocok banget. Gak bikin breakout, jerawat mulai kering. Recommended buat kalian ..."
+          ]
+        },
+        "tekstur": {
+          "count": 7,
+          "pct": 14.9,
+          "samples": [
+            "Lumayan sih, Teksturnya gak jelek. Tapi masih belum sesuai ekspektasi. Overall okelah buat nyoba....",
+            "Pas pertama pake okelah tapi lama-lama kok makin jelek. kulit mengelupas. No repeat!...",
+            "Pengirimannya lama banget, ditaruh di luar pagar. Terus pas sampe, segel rusak. Bintang 1 buat operasionalnya...."
+          ]
+        },
+        "harga": {
+          "count": 7,
+          "pct": 14.9,
+          "samples": [
+            "Gak cocok di kulitku yang sensitif. perih pas dipake. Sayang banget, boros. Mending Skintific lebih murah....",
+            "Bikin breakout parah!! kulit jadi merah-merah. Udah coba 1 bulan tapi makin parah. Uang terbuang Mending Skintific lebih...",
+            "Lumayan membantu, tapi perlu waktu lebih lama. Harganya agak pricey, mending tunggu diskon aja...."
+          ]
+        },
+        "kemasan": {
+          "count": 6,
+          "pct": 12.8,
+          "samples": [
+            "Udah 4x kali beli, gak pernah mengecewakan. Kemasannya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Kemasannya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Pengirimannya lama banget, gak pake dus. Terus pas sampe, bocor. Bintang 1 buat operasionalnya...."
+          ]
+        },
+        "aroma": {
+          "count": 1,
+          "pct": 2.1,
+          "samples": [
+            "Ekspektasi tinggi tapi nggak sesuai ekspektasi. Wanginyanya pedih. Gak bakal beli lagi...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "tapi": 25,
+        "parah": 20,
+        "udah": 20,
+        "banget": 18,
+        "cocok": 15,
+        "sayang": 15,
+        "bikin": 15,
+        "kali": 15,
+        "breakout": 14,
+        "uang": 14
+      }
+    },
+    "Retinol Night Cream": {
+      "total_reviews": 118,
+      "negative_reviews": 39,
+      "negative_pct": 33.1,
+      "avg_rating": 3.46,
+      "avg_sentiment": 0.62,
+      "aspect_complaints": {
+        "hasil": {
+          "count": 16,
+          "pct": 41.0,
+          "samples": [
+            "Udah beberapa kali kali beli, gak pernah mengecewakan. Kandungannya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Kemasan jelek, Hasilnyanya kasar. Kayaknya gak cocok sama berminyak....",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba 2 bulan tapi makin parah. Uang terbuang..."
+          ]
+        },
+        "kecocokan_kulit": {
+          "count": 16,
+          "pct": 41.0,
+          "samples": [
+            "Kemasan jelek, Kemasannyanya kayak minyak. Kayaknya gak cocok sama kombinasi....",
+            "Kemasan jelek, Hasilnyanya kasar. Kayaknya gak cocok sama berminyak....",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba 2 bulan tapi makin parah. Uang terbuang..."
+          ]
+        },
+        "kemasan": {
+          "count": 12,
+          "pct": 30.8,
+          "samples": [
+            "Pengirimannya lama banget, gak pake dus. Terus pas sampe, kemasan penyok. Bintang 1 buat operasionalnya....",
+            "Kemasan jelek, Kemasannyanya kayak minyak. Kayaknya gak cocok sama kombinasi....",
+            "Kemasan jelek, Hasilnyanya kasar. Kayaknya gak cocok sama berminyak...."
+          ]
+        },
+        "tekstur": {
+          "count": 10,
+          "pct": 25.6,
+          "samples": [
+            "Kemasan jelek, Hasilnyanya kasar. Kayaknya gak cocok sama berminyak....",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba 2 bulan tapi makin parah. Uang terbuang...",
+            "Kemasan jelek, Teksturnya kayak minyak. Kayaknya gak cocok sama kering sensitif...."
+          ]
+        },
+        "harga": {
+          "count": 10,
+          "pct": 25.6,
+          "samples": [
+            "Overrated banget. Harganya nggak worth tapi kualitas gak istimewa. Mending beli The Originote...",
+            "Overrated banget. Harganya overpriced tapi kualitas mengecewakan. Mending beli Scarlett...",
+            "Overrated banget. Harganya overpriced tapi kualitas standar. Mending beli Avoskin..."
+          ]
+        },
+        "aroma": {
+          "count": 2,
+          "pct": 5.1,
+          "samples": [
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah restock berkali-kali....",
+            "Ekspektasi tinggi tapi nggak sesuai ekspektasi. Wanginyanya ke mana-mana. Kapok...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "tapi": 22,
+        "banget": 18,
+        "beli": 12,
+        "lama": 11,
+        "harganya": 10,
+        "mending": 10,
+        "overrated": 9,
+        "kualitas": 9,
+        "kemasan": 9,
+        "cocok": 9
+      }
+    },
+    "Something Serum": {
+      "total_reviews": 133,
+      "negative_reviews": 57,
+      "negative_pct": 42.9,
+      "avg_rating": 3.42,
+      "avg_sentiment": -0.71,
+      "aspect_complaints": {
+        "kecocokan_kulit": {
+          "count": 30,
+          "pct": 52.6,
+          "samples": [
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. langsung breakout dalam seminggu. No repeat!...",
+            "Gak cocok di kulitku yang kombinasi. bruntus. Sayang banget, uang terbuang....",
+            "Pas pertama pake lumayan tapi lama-lama kok makin jelek. perih pas dipake. No repeat!..."
+          ]
+        },
+        "hasil": {
+          "count": 29,
+          "pct": 50.9,
+          "samples": [
+            "Udah 3x kali beli, gak pernah mengecewakan. Hasilnya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. langsung breakout dalam seminggu. No repeat!...",
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Kemasannya enak, hasilnya keliatan. Bakalan repeat order!..."
+          ]
+        },
+        "tekstur": {
+          "count": 18,
+          "pct": 31.6,
+          "samples": [
+            "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja....",
+            "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama berjerawat....",
+            "Bikin breakout parah!! kulit mengelupas. Udah coba 3 minggu tapi makin parah. Uang percuma..."
+          ]
+        },
+        "kemasan": {
+          "count": 12,
+          "pct": 21.1,
+          "samples": [
+            "Udah berkali-kali kali beli, gak pernah mengecewakan. Kemasannya enak, hasilnya keliatan. Bakalan repeat order!...",
+            "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama berjerawat....",
+            "Kemasan jelek, Kandungannyanya berat di muka. Kayaknya gak cocok sama berminyak...."
+          ]
+        },
+        "harga": {
+          "count": 8,
+          "pct": 14.0,
+          "samples": [
+            "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja....",
+            "Overrated banget. Harganya kemahalan tapi kualitas gak istimewa. Mending beli Avoskin...",
+            "Overrated banget. Harganya gak sebanding tapi kualitas gak istimewa. Mending beli Avoskin..."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "tapi": 30,
+        "banget": 23,
+        "lama": 21,
+        "cocok": 19,
+        "bikin": 19,
+        "udah": 15,
+        "beli": 15,
+        "repeat": 14,
+        "sayang": 14,
+        "parah": 14
+      }
+    },
+    "Vitamin C Brightening Serum": {
+      "total_reviews": 131,
+      "negative_reviews": 51,
+      "negative_pct": 38.9,
+      "avg_rating": 3.4,
+      "avg_sentiment": -0.78,
+      "aspect_complaints": {
+        "kecocokan_kulit": {
+          "count": 26,
+          "pct": 51.0,
+          "samples": [
+            "Gak cocok di kulitku yang normal. langsung breakout dalam seminggu. Sayang banget, sayang duit....",
+            "Kemasan jelek, Wanginyanya pedih. Kayaknya gak cocok sama normal....",
+            "Aku punya kulit kering dan ini cocok banget. Gak bikin breakout, tekstur kulit membaik. Recommended buat kalian yang ker..."
+          ]
+        },
+        "hasil": {
+          "count": 24,
+          "pct": 47.1,
+          "samples": [
+            "Gak cocok di kulitku yang normal. langsung breakout dalam seminggu. Sayang banget, sayang duit....",
+            "Udah 3x kali beli, gak pernah mengecewakan. Formulanya enak, hasilnya keliatan. Udah restock berkali-kali....",
+            "Aku punya kulit kering dan ini cocok banget. Gak bikin breakout, tekstur kulit membaik. Recommended buat kalian yang ker..."
+          ]
+        },
+        "kemasan": {
+          "count": 14,
+          "pct": 27.5,
+          "samples": [
+            "Pengirimannya lama banget, packingnya bubble wrap doang. Terus pas sampe, kemasan rusak. Bintang 1 buat operasionalnya....",
+            "Kemasan jelek, Wanginyanya pedih. Kayaknya gak cocok sama normal....",
+            "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama normal...."
+          ]
+        },
+        "tekstur": {
+          "count": 9,
+          "pct": 17.6,
+          "samples": [
+            "Aku punya kulit kering dan ini cocok banget. Gak bikin breakout, tekstur kulit membaik. Recommended buat kalian yang ker...",
+            "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama normal....",
+            "Gak cocok di kulitku yang sensitif. terasa lengket banget. Sayang banget, boros...."
+          ]
+        },
+        "harga": {
+          "count": 7,
+          "pct": 13.7,
+          "samples": [
+            "Overrated banget. Harganya gak sebanding tapi kualitas standar. Mending beli Wardah...",
+            "Cocok banget buat kulit kering. Awalnya ragu tapi setelah seminggu pemakaian, jerawat mulai kering. Harga sesuai kualita...",
+            "Overrated banget. Harganya kemahalan tapi kualitas mengecewakan. Mending beli Avoskin..."
+          ]
+        },
+        "aroma": {
+          "count": 4,
+          "pct": 7.8,
+          "samples": [
+            "Kemasan jelek, Wanginyanya pedih. Kayaknya gak cocok sama normal....",
+            "Udah 3x kali beli, gak pernah mengecewakan. Wanginya enak, hasilnya keliatan. Udah restock berkali-kali....",
+            "Kemasan jelek, Wanginyanya ke mana-mana. Kayaknya gak cocok sama kering sensitif...."
+          ]
+        }
+      },
+      "top_complaint_words": {
+        "tapi": 25,
+        "banget": 24,
+        "lama": 23,
+        "cocok": 18,
+        "beli": 13,
+        "udah": 13,
+        "breakout": 11,
+        "sayang": 11,
+        "kali": 11,
+        "buat": 11
+      }
+    }
+  },
+  "02_competitive_benchmark": {
+    "somethinc": {
+      "total_reviews": 995,
+      "avg_rating": 3.44,
+      "avg_sentiment_score": -0.21,
+      "positive_pct": 44.3,
+      "negative_pct": 39.7,
+      "neutral_pct": 16.0,
+      "rating_distribution": {
+        "1": 63,
+        "2": 147,
+        "3": 288,
+        "4": 281,
+        "5": 216
+      },
+      "most_praised_words": {
+        "cocok": 344,
+        "lebih": 218,
+        "banget": 191,
+        "kulit": 182,
+        "tapi": 131,
+        "buat": 118,
+        "yang": 118,
+        "pake": 110,
+        "bagus": 107,
+        "lumayan": 91,
+        "harganya": 88,
+        "mungkin": 85,
+        "mending": 85,
+        "repeat": 83,
+        "udah": 79
+      },
+      "most_complained_words": {
+        "tapi": 194,
+        "banget": 182,
+        "cocok": 128,
+        "lama": 127,
+        "udah": 123,
+        "beli": 107,
+        "kali": 102,
+        "bikin": 102,
+        "parah": 96,
+        "breakout": 82
+      }
+    },
+    "skintific": {
+      "total_reviews": 1005,
+      "avg_rating": 3.62,
+      "avg_sentiment_score": -0.9,
+      "positive_pct": 42.8,
+      "negative_pct": 47.4,
+      "neutral_pct": 9.9,
+      "rating_distribution": {
+        "1": 65,
+        "2": 114,
+        "3": 257,
+        "4": 275,
+        "5": 294
+      },
+      "most_praised_words": {
+        "cocok": 309,
+        "banget": 231,
+        "lebih": 220,
+        "kulit": 199,
+        "buat": 163,
+        "yang": 142,
+        "bagus": 134,
+        "pake": 105,
+        "udah": 100,
+        "tapi": 97,
+        "worth": 92,
+        "repeat": 87,
+        "teksturnya": 83,
+        "murah": 82,
+        "recommended": 80
+      },
+      "most_complained_words": {
+        "banget": 241,
+        "tapi": 201,
+        "cocok": 182,
+        "lama": 158,
+        "beli": 120,
+        "udah": 117,
+        "bikin": 112,
+        "jelek": 106,
+        "sayang": 101,
+        "buat": 100
+      }
+    },
+    "sentiment_gap": {
+      "sentiment_gap": -0.69,
+      "rating_gap": 0.18,
+      "positive_gap": -1.5,
+      "better_in": null,
+      "aspect_wins": {
+        "tekstur": {
+          "somethinc_avg": 5.66,
+          "skintific_avg": 5.36,
+          "winner": "somethinc",
+          "gap": 0.29
+        },
+        "harga": {
+          "somethinc_avg": 3.71,
+          "skintific_avg": 3.9,
+          "winner": "skintific",
+          "gap": -0.2
+        },
+        "hasil": {
+          "somethinc_avg": 2.36,
+          "skintific_avg": 1.81,
+          "winner": "somethinc",
+          "gap": 0.55
+        },
+        "kemasan": {
+          "somethinc_avg": -2.94,
+          "skintific_avg": -2.21,
+          "winner": "skintific",
+          "gap": -0.73
+        }
+      }
+    }
+  },
+  "03_feature_evaluation": {
+    "somethinc": {
+      "tekstur_konsistensi": {
+        "total_mentions": 222,
+        "negative_count": 84,
+        "positive_count": 138,
+        "complaint_ratio": 37.8,
+        "net_sentiment": 446
+      },
+      "aroma_wangi": {
+        "total_mentions": 86,
+        "negative_count": 19,
+        "positive_count": 67,
+        "complaint_ratio": 22.1,
+        "net_sentiment": 590
+      },
+      "kemasan_design": {
+        "total_mentions": 146,
+        "negative_count": 100,
+        "positive_count": 46,
+        "complaint_ratio": 68.5,
+        "net_sentiment": -532
+      },
+      "formula_kandungan": {
+        "total_mentions": 133,
+        "negative_count": 37,
+        "positive_count": 96,
+        "complaint_ratio": 27.8,
+        "net_sentiment": 385
+      },
+      "hasil_efek": {
+        "total_mentions": 340,
+        "negative_count": 117,
+        "positive_count": 223,
+        "complaint_ratio": 34.4,
+        "net_sentiment": 1001
+      },
+      "after_feel": {
+        "total_mentions": 130,
+        "negative_count": 52,
+        "positive_count": 78,
+        "complaint_ratio": 40.0,
+        "net_sentiment": 185
+      }
+    },
+    "skintific": {
+      "tekstur_konsistensi": {
+        "total_mentions": 270,
+        "negative_count": 93,
+        "positive_count": 177,
+        "complaint_ratio": 34.4,
+        "net_sentiment": 749
+      },
+      "aroma_wangi": {
+        "total_mentions": 93,
+        "negative_count": 22,
+        "positive_count": 71,
+        "complaint_ratio": 23.7,
+        "net_sentiment": 565
+      },
+      "kemasan_design": {
+        "total_mentions": 199,
+        "negative_count": 124,
+        "positive_count": 75,
+        "complaint_ratio": 62.3,
+        "net_sentiment": -501
+      },
+      "formula_kandungan": {
+        "total_mentions": 137,
+        "negative_count": 46,
+        "positive_count": 91,
+        "complaint_ratio": 33.6,
+        "net_sentiment": 252
+      },
+      "hasil_efek": {
+        "total_mentions": 317,
+        "negative_count": 118,
+        "positive_count": 199,
+        "complaint_ratio": 37.2,
+        "net_sentiment": 723
+      },
+      "after_feel": {
+        "total_mentions": 150,
+        "negative_count": 58,
+        "positive_count": 92,
+        "complaint_ratio": 38.7,
+        "net_sentiment": 233
+      }
+    }
+  },
+  "04_operational_issues": {
+    "somethinc": {
+      "total_operational_mentions": 107,
+      "pct_of_all_reviews": 10.8,
+      "operational_breakdown": {
+        "pengiriman_lambat": {
+          "total_mentions": 107,
+          "negative_count": 87,
+          "avg_rating": 2.82,
+          "sentiment_impact": -7.07,
+          "pct_of_ops": 100.0
+        },
+        "kemasan_rusak": {
+          "total_mentions": 37,
+          "negative_count": 37,
+          "avg_rating": 2.92,
+          "sentiment_impact": -10.05,
+          "pct_of_ops": 34.6
+        },
+        "packing_kurang": {
+          "total_mentions": 14,
+          "negative_count": 14,
+          "avg_rating": 2.79,
+          "sentiment_impact": -10.29,
+          "pct_of_ops": 13.1
+        },
+        "cs_respon": {
+          "total_mentions": 0,
+          "negative_count": 0,
+          "avg_rating": 0,
+          "sentiment_impact": 0,
+          "pct_of_ops": 0.0
+        },
+        "barang_salah": {
+          "total_mentions": 13,
+          "negative_count": 11,
+          "avg_rating": 2.46,
+          "sentiment_impact": -6.54,
+          "pct_of_ops": 12.1
+        },
+        "ekspedisi": {
+          "total_mentions": 0,
+          "negative_count": 0,
+          "avg_rating": 0,
+          "sentiment_impact": 0,
+          "pct_of_ops": 0.0
+        }
+      },
+      "false_negatives_from_ops": 15,
+      "avg_rating_with_ops_issue": 2.82,
+      "avg_rating_without_ops_issue": 3.52,
+      "rating_gap_due_to_ops": -0.69
+    },
+    "skintific": {
+      "total_operational_mentions": 122,
+      "pct_of_all_reviews": 12.1,
+      "operational_breakdown": {
+        "pengiriman_lambat": {
+          "total_mentions": 122,
+          "negative_count": 112,
+          "avg_rating": 3.21,
+          "sentiment_impact": -7.95,
+          "pct_of_ops": 100.0
+        },
+        "kemasan_rusak": {
+          "total_mentions": 54,
+          "negative_count": 54,
+          "avg_rating": 3.07,
+          "sentiment_impact": -10.0,
+          "pct_of_ops": 44.3
+        },
+        "packing_kurang": {
+          "total_mentions": 24,
+          "negative_count": 24,
+          "avg_rating": 3.21,
+          "sentiment_impact": -9.67,
+          "pct_of_ops": 19.7
+        },
+        "cs_respon": {
+          "total_mentions": 0,
+          "negative_count": 0,
+          "avg_rating": 0,
+          "sentiment_impact": 0,
+          "pct_of_ops": 0.0
+        },
+        "barang_salah": {
+          "total_mentions": 16,
+          "negative_count": 14,
+          "avg_rating": 3.81,
+          "sentiment_impact": -5.06,
+          "pct_of_ops": 13.1
+        },
+        "ekspedisi": {
+          "total_mentions": 0,
+          "negative_count": 0,
+          "avg_rating": 0,
+          "sentiment_impact": 0,
+          "pct_of_ops": 0.0
+        }
+      },
+      "false_negatives_from_ops": 5,
+      "avg_rating_with_ops_issue": 3.21,
+      "avg_rating_without_ops_issue": 3.67,
+      "rating_gap_due_to_ops": -0.46
+    }
+  },
+  "05_price_sensitivity": {
+    "somethinc": {
+      "total_reviews": 995,
+      "price_mention_reviews": 278,
+      "discount_mention_reviews": 62,
+      "no_price_mention_reviews": 717,
+      "avg_rating_price_mentioners": 3.54,
+      "avg_rating_discount_mentioners": 3.39,
+      "avg_rating_no_price_mention": 3.4,
+      "avg_sentiment_price_mentioners": 2.75,
+      "avg_sentiment_no_price_mention": -1.35,
+      "discount_positive_pct": 46.8,
+      "price_positive_vs_negative": {
+        "positive": 190,
+        "negative": 61,
+        "ratio": 3.11
+      },
+      "price_range": {
+        "min": 21961,
+        "max": 94590,
+        "avg": 58961
+      }
+    },
+    "skintific": {
+      "total_reviews": 1005,
+      "price_mention_reviews": 266,
+      "discount_mention_reviews": 22,
+      "no_price_mention_reviews": 739,
+      "avg_rating_price_mentioners": 3.75,
+      "avg_rating_discount_mentioners": 3.91,
+      "avg_rating_no_price_mention": 3.57,
+      "avg_sentiment_price_mentioners": 3.18,
+      "avg_sentiment_no_price_mention": -2.37,
+      "discount_positive_pct": 40.9,
+      "price_positive_vs_negative": {
+        "positive": 194,
+        "negative": 58,
+        "ratio": 3.34
+      },
+      "price_range": {
+        "min": 11021,
+        "max": 80000,
+        "avg": 45843
+      }
+    }
+  },
+  "06_feature_requests": {
+    "somethinc": {
+      "total_feature_requests": 323,
+      "request_categories": {
+        "varian_baru_ukuran": {
+          "count": 0,
+          "samples": []
+        },
+        "formula_improvement": {
+          "count": 129,
+          "samples": [
+            "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+            "Lumayan sih, Teksturnya lumayan. Tapi kurasa kurang maksimal. Overall okelah buat nyoba.",
+            "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya lumayan, mending tunggu diskon aja.",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya standar, mending tunggu diskon aja."
+          ]
+        },
+        "kemasan_improvement": {
+          "count": 17,
+          "samples": [
+            "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+            "Beneran works! Kemasannyanya ringan, gak lengket, jerawat berkurang. kering sensitif friendly banget. Pokoknya must have!",
+            "Kemasan bagus, Kemasannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu.",
+            "Kemasan bagus, Kandungannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu.",
+            "Kemasan bagus, Kandungannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu."
+          ]
+        },
+        "harga_bundling": {
+          "count": 132,
+          "samples": [
+            "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+            "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja.",
+            "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya lumayan, mending tunggu diskon aja.",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya standar, mending tunggu diskon aja."
+          ]
+        },
+        "produk_baru": {
+          "count": 46,
+          "samples": [
+            "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+            "Awalnya okelah tapi setelah 1 bulan hasilnya biasalah. Semoga cocok",
+            "Awalnya lumayan tapi setelah sebulan lebih masih belum keliatan hasilnya. Semoga cocok",
+            "Udah pake 2 minggu, wajah keliatan lebih cerah. Teksturnya akan terasa dingin, wanginya nyaman. Bakal repeat order! Bakalan repeat order!",
+            "Awalnya cukup bagus tapi setelah 1 bulan kurang cocok di aku. Semoga cocok"
+          ]
+        }
+      },
+      "most_requested_products": {
+        "Acne Pore Serum": 12,
+        "Retinol Night Cream": 12,
+        "5X Ceramide Barrier Repair Moisturizer": 11,
+        "Vitamin C Brightening Serum": 10,
+        "Something Serum": 10,
+        "Moisture Bomb": 10,
+        "Clay Mask": 9,
+        "Physical Sunscreen SPF50": 9
+      },
+      "all_request_texts": [
+        "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+        "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja.",
+        "Overrated banget. Harganya gak sebanding tapi kualitas standar. Mending beli Wardah",
+        "Overrated banget. Harganya overpriced tapi kualitas biasa aja. Mending beli Somethinc",
+        "Lumayan sih, Teksturnya lumayan. Tapi kurasa kurang maksimal. Overall okelah buat nyoba.",
+        "Overrated banget. Harganya terlalu mahal tapi kualitas biasa aja. Mending beli The Originote Mending Somethinc lebih bagus.",
+        "Overrated banget. Harganya nggak worth tapi kualitas gak istimewa. Mending beli The Originote",
+        "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+        "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+        "Overrated banget. Harganya nggak worth tapi kualitas gak istimewa. Mending beli Avoskin"
+      ]
+    },
+    "skintific": {
+      "total_feature_requests": 323,
+      "request_categories": {
+        "varian_baru_ukuran": {
+          "count": 0,
+          "samples": []
+        },
+        "formula_improvement": {
+          "count": 129,
+          "samples": [
+            "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+            "Lumayan sih, Teksturnya lumayan. Tapi kurasa kurang maksimal. Overall okelah buat nyoba.",
+            "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya lumayan, mending tunggu diskon aja.",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya standar, mending tunggu diskon aja."
+          ]
+        },
+        "kemasan_improvement": {
+          "count": 17,
+          "samples": [
+            "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+            "Beneran works! Kemasannyanya ringan, gak lengket, jerawat berkurang. kering sensitif friendly banget. Pokoknya must have!",
+            "Kemasan bagus, Kemasannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu.",
+            "Kemasan bagus, Kandungannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu.",
+            "Kemasan bagus, Kandungannyanya akan terasa dingin. Cepet ngiranya juga. Pokoknya worth it lah buat harga segitu."
+          ]
+        },
+        "harga_bundling": {
+          "count": 132,
+          "samples": [
+            "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+            "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja.",
+            "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya lumayan, mending tunggu diskon aja.",
+            "Lumayan membantu, tapi kurang cocok di aku. Harganya standar, mending tunggu diskon aja."
+          ]
+        },
+        "produk_baru": {
+          "count": 46,
+          "samples": [
+            "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+            "Awalnya okelah tapi setelah 1 bulan hasilnya biasalah. Semoga cocok",
+            "Awalnya lumayan tapi setelah sebulan lebih masih belum keliatan hasilnya. Semoga cocok",
+            "Udah pake 2 minggu, wajah keliatan lebih cerah. Teksturnya akan terasa dingin, wanginya nyaman. Bakal repeat order! Bakalan repeat order!",
+            "Awalnya cukup bagus tapi setelah 1 bulan kurang cocok di aku. Semoga cocok"
+          ]
+        }
+      },
+      "most_requested_products": {
+        "Acne Pore Serum": 12,
+        "Retinol Night Cream": 12,
+        "5X Ceramide Barrier Repair Moisturizer": 11,
+        "Vitamin C Brightening Serum": 10,
+        "Something Serum": 10,
+        "Moisture Bomb": 10,
+        "Clay Mask": 9,
+        "Physical Sunscreen SPF50": 9
+      },
+      "all_request_texts": [
+        "Awalnya lumayan tapi setelah 1 bulan kurang cocok di aku. Siapa tau cocok di lo",
+        "Lumayan membantu, tapi agak berat di kulit. Harganya standar, mending tunggu diskon aja.",
+        "Overrated banget. Harganya gak sebanding tapi kualitas standar. Mending beli Wardah",
+        "Overrated banget. Harganya overpriced tapi kualitas biasa aja. Mending beli Somethinc",
+        "Lumayan sih, Teksturnya lumayan. Tapi kurasa kurang maksimal. Overall okelah buat nyoba.",
+        "Overrated banget. Harganya terlalu mahal tapi kualitas biasa aja. Mending beli The Originote Mending Somethinc lebih bagus.",
+        "Overrated banget. Harganya nggak worth tapi kualitas gak istimewa. Mending beli The Originote",
+        "Awalnya okelah tapi setelah 3 minggu perlu waktu lebih lama. Semoga cocok",
+        "gas cobain rekomendasi dari. produknya bagus banget, cocok di kulit aku yang normal. Kemasannyanya oke, jerawat berkurang. Recommended banget!",
+        "Overrated banget. Harganya nggak worth tapi kualitas gak istimewa. Mending beli Avoskin"
+      ]
+    }
+  },
+  "07_affiliate_influence": {
+    "summary": {
+      "total_reviews": 2000,
+      "affiliate_reviews": 282,
+      "organic_reviews": 1651,
+      "suspicious_reviews": 67,
+      "affiliate_pct": 14.1,
+      "suspicious_pct": 3.4
+    },
+    "somethinc": {
+      "affiliate_count": 76,
+      "organic_count": 898,
+      "suspicious_count": 21,
+      "affiliate_avg_rating": 4.72,
+      "organic_avg_rating": 3.3,
+      "rating_inflation": 1.42,
+      "affiliate_positive_pct": 48.7,
+      "organic_positive_pct": 44.3,
+      "affiliate_rating_distribution": {
+        "3": 1,
+        "4": 19,
+        "5": 56
+      },
+      "organic_rating_distribution": {
+        "1": 63,
+        "2": 147,
+        "3": 287,
+        "4": 262,
+        "5": 139
+      },
+      "suspicious_avg_sentiment": -1.19
+    },
+    "skintific": {
+      "affiliate_count": 206,
+      "organic_count": 753,
+      "suspicious_count": 46,
+      "affiliate_avg_rating": 4.73,
+      "organic_avg_rating": 3.23,
+      "rating_inflation": 1.5,
+      "affiliate_positive_pct": 44.2,
+      "organic_positive_pct": 42.8,
+      "affiliate_rating_distribution": {
+        "3": 7,
+        "4": 41,
+        "5": 158
+      },
+      "organic_rating_distribution": {
+        "1": 65,
+        "2": 114,
+        "3": 250,
+        "4": 234,
+        "5": 90
+      },
+      "suspicious_avg_sentiment": -2.43
+    }
+  },
+  "08_repeat_purchase": {
+    "somethinc": {
+      "total_reviews": 995,
+      "repeat_intent_count": 166,
+      "repeat_pct": 16.7,
+      "repeat_avg_rating": 3.6,
+      "non_repeat_avg_rating": 3.41,
+      "loyalty_rating_premium": 0.19,
+      "repeat_positive_pct": 30.7,
+      "repeat_negative_pct": 57.8,
+      "most_repeated_products": {
+        "Something Serum": 27,
+        "Acne Pore Serum": 26,
+        "Physical Sunscreen SPF50": 22,
+        "Vitamin C Brightening Serum": 20,
+        "Glow Maker Moisturizer": 19,
+        "Clay Mask": 18,
+        "Gentle Cleansing Balm": 17,
+        "Retinol Night Cream": 17
+      },
+      "repeat_examples": [
+        "Udah 3x kali beli, gak pernah mengecewakan. Hasilnya enak, hasilnya keliatan. Bakalan repeat order!",
+        "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. beruntusan muncul dimana-mana. No repeat!",
+        "Udah 3x kali beli, gak pernah mengecewakan. Formulanya enak, hasilnya keliatan. Udah restock berkali-kali.",
+        "Pas pertama pake lumayan tapi lama-lama hasilnya makin buruk. langsung breakout dalam seminggu. No repeat!",
+        "gas cobain rekomendasi dari. udah pake sebulan lebih, wajah keliatan lebih cerah. Teksturnya lembut creamy, wanginya enak. Bakal repeat order! Bakalan"
+      ]
+    },
+    "skintific": {
+      "total_reviews": 1005,
+      "repeat_intent_count": 181,
+      "repeat_pct": 18.0,
+      "repeat_avg_rating": 3.8,
+      "non_repeat_avg_rating": 3.58,
+      "loyalty_rating_premium": 0.22,
+      "repeat_positive_pct": 31.5,
+      "repeat_negative_pct": 57.5,
+      "most_repeated_products": {
+        "Brightening Clay Mask": 29,
+        "Hyaluronic Acid Toner": 28,
+        "Centella Acne Patch": 25,
+        "Sunscreen Moisturizer SPF50": 24,
+        "Niacinamide Serum": 23,
+        "5X Ceramide Barrier Repair Moisturizer": 21,
+        "Moisture Bomb": 18,
+        "Retinol Serum": 13
+      },
+      "repeat_examples": [
+        "Ekspektasi tinggi tapi nggak sesuai ekspektasi. PHnyanya lengket banget. Gak bakal beli lagi.",
+        "Udah 4x kali beli, gak pernah mengecewakan. Aplikasinya enak, hasilnya keliatan. Udah restock berkali-kali.",
+        "katanya sih best seller jadi aku beli. udah 4x kali beli, gak pernah mengecewakan. Formulanya enak, hasilnya keliatan. Udah repeat berkali-kali.",
+        "Pas pertama pake biasa aja tapi lama-lama kok makin jelek. perih pas dipake. No repeat!",
+        "Ekspektasi tinggi tapi nggak sesuai ekspektasi. PHnyanya lengket banget. No repeat."
+      ]
+    }
+  },
+  "09_anomaly_detection": {
+    "overall": {
+      "total_suspicious": 93,
+      "suspicious_pct": 4.7,
+      "avg_rating_of_suspicious": 4.67,
+      "avg_sentiment_of_suspicious": -10.44,
+      "suspicious_alert": "✅ Masih dalam batas normal"
+    },
+    "somethinc": {
+      "total_suspicious": 34,
+      "suspicious_pct": 3.4,
+      "suspicious_by_product": {
+        "Acne Pore Serum": 9,
+        "Something Serum": 7,
+        "Clay Mask": 6,
+        "Glow Maker Moisturizer": 4,
+        "Vitamin C Brightening Serum": 3,
+        "Gentle Cleansing Balm": 2,
+        "Physical Sunscreen SPF50": 2,
+        "Retinol Night Cream": 1
+      },
+      "suspicious_examples": [
+        {
+          "product": "Acne Pore Serum",
+          "rating": 5,
+          "text_sample": "Kemasan jelek, Kemasannyanya kayak minyak. Kayaknya gak cocok sama normal.",
+          "sentiment_score": -8
+        },
+        {
+          "product": "Something Serum",
+          "rating": 5,
+          "text_sample": "Pas pertama pake lumayan tapi lama-lama kok makin jelek. perih pas dipake. No repeat!",
+          "sentiment_score": -9
+        },
+        {
+          "product": "Something Serum",
+          "rating": 4,
+          "text_sample": "Kemasan jelek, Formulanyanya kasar. Kayaknya gak cocok sama berjerawat.",
+          "sentiment_score": -9
+        },
+        {
+          "product": "Retinol Night Cream",
+          "rating": 5,
+          "text_sample": "Overrated banget. Harganya overpriced tapi kualitas mengecewakan. Mending beli Scarlett",
+          "sentiment_score": -12
+        },
+        {
+          "product": "Something Serum",
+          "rating": 4,
+          "text_sample": "Gak cocok di kulitku yang kombinasi. beruntusan muncul dimana-mana. Sayang banget, boros.",
+          "sentiment_score": -8
+        }
+      ]
+    },
+    "skintific": {
+      "total_suspicious": 59,
+      "suspicious_pct": 5.9,
+      "suspicious_by_product": {
+        "Sunscreen Moisturizer SPF50": 12,
+        "Centella Acne Patch": 9,
+        "Retinol Serum": 9,
+        "Niacinamide Serum": 8,
+        "Brightening Clay Mask": 8,
+        "Moisture Bomb": 5,
+        "Hyaluronic Acid Toner": 4,
+        "5X Ceramide Barrier Repair Moisturizer": 4
+      },
+      "suspicious_examples": [
+        {
+          "product": "Sunscreen Moisturizer SPF50",
+          "rating": 5,
+          "text_sample": "Gak cocok di kulitku yang kering sensitif. bruntus. Sayang banget, sayang duit.",
+          "sentiment_score": -13
+        },
+        {
+          "product": "Niacinamide Serum",
+          "rating": 4,
+          "text_sample": "Overrated banget. Harganya overpriced tapi kualitas mengecewakan. Mending beli Avoskin",
+          "sentiment_score": -12
+        },
+        {
+          "product": "Niacinamide Serum",
+          "rating": 5,
+          "text_sample": "Kemasan jelek, Teksturnya kasar. Kayaknya gak cocok sama kering.",
+          "sentiment_score": -12
+        },
+        {
+          "product": "Hyaluronic Acid Toner",
+          "rating": 4,
+          "text_sample": "Kemasan jelek, Hasilnyanya kasar. Kayaknya gak cocok sama normal.",
+          "sentiment_score": -9
+        },
+        {
+          "product": "Hyaluronic Acid Toner",
+          "rating": 5,
+          "text_sample": "Kemasan jelek, Kemasannyanya kasar. Kayaknya gak cocok sama sensitif.",
+          "sentiment_score": -9
+        }
+      ]
+    }
+  },
+  "10_temporal_trends": {
+    "weekly_pattern": {
+      "Senin": {
+        "total": 292,
+        "negative": 139,
+        "positive": 120,
+        "avg_rating": 3.68,
+        "negative_pct": 47.6
+      },
+      "Selasa": {
+        "total": 276,
+        "negative": 125,
+        "positive": 115,
+        "avg_rating": 3.43,
+        "negative_pct": 45.3
+      },
+      "Rabu": {
+        "total": 257,
+        "negative": 115,
+        "positive": 117,
+        "avg_rating": 3.65,
+        "negative_pct": 44.7
+      },
+      "Kamis": {
+        "total": 298,
+        "negative": 127,
+        "positive": 129,
+        "avg_rating": 3.45,
+        "negative_pct": 42.6
+      },
+      "Jumat": {
+        "total": 295,
+        "negative": 120,
+        "positive": 135,
+        "avg_rating": 3.56,
+        "negative_pct": 40.7
+      },
+      "Sabtu": {
+        "total": 304,
+        "negative": 123,
+        "positive": 140,
+        "avg_rating": 3.47,
+        "negative_pct": 40.5
+      },
+      "Minggu": {
+        "total": 278,
+        "negative": 122,
+        "positive": 115,
+        "avg_rating": 3.47,
+        "negative_pct": 43.9
+      }
+    },
+    "brand_timeline": {
+      "somethinc": {
+        "0-7 hari": {
+          "total": 62,
+          "negative": 21,
+          "positive": 30,
+          "avg_rating": 3.52,
+          "avg_sentiment": 0.11
+        },
+        "8-30 hari": {
+          "total": 186,
+          "negative": 75,
+          "positive": 77,
+          "avg_rating": 3.5,
+          "avg_sentiment": -0.78
+        },
+        "31-60 hari": {
+          "total": 254,
+          "negative": 104,
+          "positive": 113,
+          "avg_rating": 3.52,
+          "avg_sentiment": 0.24
+        },
+        "61-90 hari": {
+          "total": 257,
+          "negative": 99,
+          "positive": 118,
+          "avg_rating": 3.38,
+          "avg_sentiment": -0.19
+        },
+        "90+ hari": {
+          "total": 236,
+          "negative": 96,
+          "positive": 103,
+          "avg_rating": 3.36,
+          "avg_sentiment": -0.33
+        }
+      },
+      "skintific": {
+        "0-7 hari": {
+          "total": 69,
+          "negative": 33,
+          "positive": 30,
+          "avg_rating": 3.55,
+          "avg_sentiment": -0.52
+        },
+        "8-30 hari": {
+          "total": 189,
+          "negative": 96,
+          "positive": 76,
+          "avg_rating": 3.76,
+          "avg_sentiment": -1.62
+        },
+        "31-60 hari": {
+          "total": 277,
+          "negative": 126,
+          "positive": 120,
+          "avg_rating": 3.55,
+          "avg_sentiment": -0.53
+        },
+        "61-90 hari": {
+          "total": 243,
+          "negative": 114,
+          "positive": 109,
+          "avg_rating": 3.6,
+          "avg_sentiment": -1.12
+        },
+        "90+ hari": {
+          "total": 227,
+          "negative": 107,
+          "positive": 95,
+          "avg_rating": 3.62,
+          "avg_sentiment": -0.64
+        }
+      }
+    },
+    "peak_complaint_days": {
+      "Senin": 5.5,
+      "Selasa": -0.3,
+      "Rabu": -9.0,
+      "Kamis": 5.5,
+      "Jumat": -0.3,
+      "Sabtu": 1.9,
+      "Minggu": -3.2
+    }
+  },
+  "_meta": {
+    "total_reviews": 2000,
+    "brands": {
+      "skintific": 1005,
+      "somethinc": 995
+    },
+    "sentiment_distribution": {
+      "positive": 871,
+      "neutral": 258,
+      "negative": 871
+    },
+    "generated_at": "2026-06-03T07:43:37.937594"
+  }
+}
