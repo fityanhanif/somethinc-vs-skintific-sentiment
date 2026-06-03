@@ -730,8 +730,13 @@ def main():
     print("\nRunning 10 analyses...")
     all_analysis = {}
 
-    print("  [01/10] Product Improvement Analysis...")
-    all_analysis["01_product_improvement"] = analyze_01_product_improvement(reviews)
+    print("  [01/10] Product Improvement Analysis (Somethinc)...")
+    som_products = analyze_01_product_improvement(reviews, brand="somethinc")
+    print("  [01/10] Product Improvement Analysis (Skintific)...")
+    skn_products = analyze_01_product_improvement(reviews, brand="skintific")
+    # Merge both brands together
+    som_products.update(skn_products)
+    all_analysis["01_product_improvement"] = som_products
 
     print("  [02/10] Competitive Benchmark...")
     all_analysis["02_competitive_benchmark"] = analyze_02_competitive_benchmark(reviews)
