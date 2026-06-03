@@ -34,153 +34,43 @@ body{
 }
 
 /* ── HERO ── */
-.hero{
-  padding:4rem 3rem 3rem;
-  max-width:1300px;
-  margin:0 auto;
-}
-.hero-label{
-  font-size:11px;
-  font-weight:600;
-  letter-spacing:2px;
-  text-transform:uppercase;
-  color:var(--mute);
-  margin-bottom:1rem;
-}
-.hero h1{
-  font-size:48px;
-  font-weight:800;
-  letter-spacing:-1.5px;
-  line-height:1.1;
-  margin-bottom:0.5rem;
-}
+.hero{padding:4rem 3rem 3rem;max-width:1300px;margin:0 auto}
+.hero-label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--mute);margin-bottom:1rem}
+.hero h1{font-size:48px;font-weight:800;letter-spacing:-1.5px;line-height:1.1;margin-bottom:0.5rem}
 .hero h1 .som{color:var(--som)}
 .hero h1 .skn{color:var(--skn)}
 .hero h1 .dim{color:var(--mute)}
-.hero-sub{
-  font-size:16px;
-  color:var(--mute);
-  font-weight:400;
-  line-height:1.5;
-  max-width:600px;
-  margin-bottom:2rem;
-}
+.hero-sub{font-size:16px;color:var(--mute);font-weight:400;line-height:1.5;max-width:600px;margin-bottom:2rem}
 
 /* ── VERDICT BANNER ── */
-.verdict{
-  display:flex;
-  gap:3rem;
-  align-items:stretch;
-  padding:2rem 0;
-  border-top:1px solid var(--line);
-  border-bottom:1px solid var(--line);
-  margin-bottom:3rem;
-  flex-wrap:wrap;
-}
-.verdict-brand{
-  flex:1;
-  min-width:280px;
-  padding:1.5rem 1.8rem;
-  border-radius:var(--radius);
-  position:relative;
-  overflow:hidden;
-}
+.verdict{display:flex;gap:3rem;align-items:stretch;padding:2rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-bottom:3rem;flex-wrap:wrap}
+.verdict-brand{flex:1;min-width:280px;padding:1.5rem 1.8rem;border-radius:var(--radius);position:relative;overflow:hidden}
 .verdict-brand.som{background:var(--som-light)}
 .verdict-brand.skn{background:var(--skn-light)}
-.verdict-brand::before{
-  content:'';
-  position:absolute;
-  top:0;left:0;right:0;
-  height:4px;
-}
+.verdict-brand::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
 .verdict-brand.som::before{background:var(--som)}
 .verdict-brand.skn::before{background:var(--skn)}
-.verdict-brand h3{
-  font-size:13px;
-  font-weight:600;
-  letter-spacing:1px;
-  text-transform:uppercase;
-  margin-bottom:6px;
-}
+.verdict-brand h3{font-size:13px;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
 .verdict-brand.som h3{color:var(--som)}
 .verdict-brand.skn h3{color:var(--skn)}
-.verdict-row{
-  display:flex;
-  align-items:baseline;
-  gap:8px;
-  flex-wrap:wrap;
-}
-.verdict-score{
-  font-size:42px;
-  font-weight:800;
-  letter-spacing:-1px;
-  line-height:1;
-}
+.verdict-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.verdict-score{font-size:42px;font-weight:800;letter-spacing:-1px;line-height:1}
 .verdict-brand.som .verdict-score{color:var(--som)}
 .verdict-brand.skn .verdict-score{color:var(--skn)}
-.verdict-label{
-  font-size:13px;
-  color:var(--mute);
-  font-weight:500;
-}
-.verdict-bar{
-  margin-top:12px;
-  height:6px;
-  background:var(--line);
-  border-radius:99px;
-  overflow:hidden;
-  position:relative;
-}
-.verdict-bar-fill{
-  height:100%;
-  border-radius:99px;
-  transition:width 1s ease;
-}
+.verdict-label{font-size:13px;color:var(--mute);font-weight:500}
+.verdict-bar{margin-top:12px;height:6px;background:var(--line);border-radius:99px;overflow:hidden;position:relative}
+.verdict-bar-fill{height:100%;border-radius:99px;transition:width 1s ease}
 .som .verdict-bar-fill{background:var(--som)}
 .skn .verdict-bar-fill{background:var(--skn)}
 
-/* ── WINNER TAG ── */
-.winner-tag{
-  display:inline-flex;
-  align-items:center;
-  gap:4px;
-  font-size:10px;
-  font-weight:700;
-  letter-spacing:0.5px;
-  text-transform:uppercase;
-  padding:3px 10px;
-  border-radius:99px;
-  margin-top:8px;
-}
-.winner-tag.som{background:var(--som);color:#fff}
-.winner-tag.skn{background:var(--skn);color:#fff}
-.winner-tag.draw{background:var(--line);color:var(--mute)}
-
 /* ── MAIN ── */
-.main{
-  max-width:1300px;
-  margin:0 auto;
-  padding:0 3rem 4rem;
-}
+.main{max-width:1300px;margin:0 auto;padding:0 3rem 4rem}
 
 /* ── SECTION ── */
 .sec{margin-bottom:4rem}
-.sec-header{
-  display:flex;
-  align-items:baseline;
-  gap:12px;
-  margin-bottom:1.5rem;
-}
-.sec-header h2{
-  font-size:22px;
-  font-weight:700;
-  letter-spacing:-0.3px;
-}
-.sec-header .sec-accent{
-  width:4px;height:24px;
-  border-radius:99px;
-  flex-shrink:0;
-}
+.sec-header{display:flex;align-items:baseline;gap:12px;margin-bottom:1.5rem}
+.sec-header h2{font-size:22px;font-weight:700;letter-spacing:-0.3px}
+.sec-header .sec-accent{width:4px;height:24px;border-radius:99px;flex-shrink:0}
 .sec-header p{font-size:13px;color:var(--mute);margin-top:2px}
 
 /* ── GRIDS ── */
@@ -189,73 +79,29 @@ body{
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
 
 /* ── CARD ── */
-.card{
-  background:var(--paper);
-  border-radius:var(--radius);
-  padding:1.5rem;
-  border:1px solid var(--line);
-  transition:box-shadow .3s,transform .3s;
-}
-.card:hover{
-  box-shadow:0 8px 24px rgba(0,0,0,0.06);
-  transform:translateY(-2px);
-}
-.card-title{
-  font-size:11px;
-  font-weight:600;
-  text-transform:uppercase;
-  letter-spacing:0.8px;
-  color:var(--mute);
-  margin-bottom:1rem;
-}
+.card{background:var(--paper);border-radius:var(--radius);padding:1.5rem;border:1px solid var(--line);transition:box-shadow .3s}
+.card:hover{box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+.card-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.8px;color:var(--mute);margin-bottom:1rem}
 .chart-box{position:relative;width:100%;min-height:220px}
 canvas{width:100%!important}
 
 /* ── INSIGHT ── */
-.insight{
-  display:flex;gap:10px;
-  padding:14px;margin-top:14px;
-  border-radius:var(--radius-sm);
-  font-size:13px;line-height:1.6;
-}
+.insight{display:flex;gap:10px;padding:14px;margin-top:14px;border-radius:var(--radius-sm);font-size:13px;line-height:1.6}
 .insight strong{font-weight:600}
 .insight.som{background:var(--som-light);border-left:3px solid var(--som)}
 .insight.skn{background:var(--skn-light);border-left:3px solid var(--skn)}
 .insight.green{background:#ECF7F1;border-left:3px solid var(--pos)}
 .insight.red{background:#FDEAEA;border-left:3px solid var(--neg)}
 .insight.amber{background:#FEF5E0;border-left:3px solid var(--neu)}
-.insight-icon{flex-shrink:0;width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.insight-icon{flex-shrink:0;width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;font-style:italic;font-family:Georgia,serif}
 .insight.som .insight-icon{background:var(--som);color:#fff}
 .insight.skn .insight-icon{background:var(--skn);color:#fff}
 .insight.green .insight-icon{background:var(--pos);color:#fff}
 .insight.red .insight-icon{background:var(--neg);color:#fff}
 .insight.amber .insight-icon{background:var(--neu);color:#fff}
-.insight-icon{content:'i';font-style:italic;font-family:Georgia,serif}
-
-/* ── STAT PILLS ── */
-.pills{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
-.pills span{
-  font-size:10px;font-weight:500;
-  padding:4px 12px;border-radius:99px;
-  background:var(--bg);color:var(--mute);
-}
-.stat-group{display:flex;gap:8px;flex-wrap:wrap}
-.stat-box{
-  flex:1;min-width:70px;
-  background:var(--bg);border-radius:var(--radius-sm);
-  padding:12px;text-align:center;
-}
-.stat-box .num{font-size:22px;font-weight:700}
-.stat-box .lbl{font-size:10px;color:var(--mute);margin-top:2px;font-weight:500}
-.stat-box.som .num{color:var(--som)}
-.stat-box.skn .num{color:var(--skn)}
 
 /* ── BADGE ── */
-.badge{
-  display:inline-flex;align-items:center;gap:5px;
-  font-size:11px;font-weight:600;
-  padding:4px 12px;border-radius:99px;
-}
+.badge{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;padding:4px 12px;border-radius:99px}
 .badge.som{background:var(--som);color:#fff}
 .badge.skn{background:var(--skn);color:#fff}
 .badge.outline{border:1.5px solid;background:transparent}
@@ -266,95 +112,55 @@ canvas{width:100%!important}
 .badge.red{background:var(--neg);color:#fff}
 .badge.xs{padding:2px 8px;font-size:10px}
 
-/* ── ARCH FLOW ── */
-.arch{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center}
-.arch-node{
-  border-radius:var(--radius-sm);padding:12px 16px;
-  text-align:center;min-width:90px;flex:1;
-  border:1px solid transparent;transition:.2s;
-}
-.arch-node:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,0.06)}
-.arch-node .lbl{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.08em}
-.arch-node .val{font-size:13px;font-weight:700;margin-top:3px}
-.arch-arr{font-size:14px;color:var(--mute);flex-shrink:0}
-
-/* ── DATA TABLE ── */
-.data-table{
-  width:100%;border-collapse:separate;border-spacing:0;
-  font-size:13px;
-}
-.data-table th{
-  text-align:left;font-size:10px;font-weight:600;
-  text-transform:uppercase;letter-spacing:.6px;
-  color:var(--mute);padding:10px 12px 6px;
-  border-bottom:1px solid var(--line);
-}
-.data-table td{padding:10px 12px;border-bottom:1px solid rgba(0,0,0,0.04)}
-.data-table tr:last-child td{border-bottom:none}
-.data-table tr:hover td{background:var(--bg)}
+/* ── RECOMMENDATIONS ── */
+.rec-section{margin-bottom:32px}
+.rec-section-title{font-size:22px;font-weight:700;margin-bottom:6px}
+.rec-section-desc{font-size:13px;color:var(--mute);margin-bottom:20px}
+.rec-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-bottom:20px;transition:border-color .2s}
+.rec-card:hover{border-color:var(--line)}
+.rec-priority-1{border-left:4px solid var(--neg)}
+.rec-priority-2{border-left:4px solid #3b82f6}
+.rec-priority-3{border-left:4px solid var(--skn)}
+.rec-header{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.rec-priority-badge{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.8px;padding:3px 10px;border-radius:4px;background:rgba(239,68,68,0.15);color:var(--neg)}
+.rec-title{font-size:16px;font-weight:700;margin-bottom:16px;line-height:1.4}
+.rec-body{display:flex;flex-direction:column;gap:12px}
+.rec-row{display:flex;gap:10px;font-size:13px;line-height:1.6}
+.rec-label{min-width:80px;font-weight:600;color:var(--mute);white-space:nowrap;flex-shrink:0}
+.rec-value{color:var(--ink);flex:1}
+.rec-kpi-box{margin-top:8px;padding:16px;background:var(--som-light);border:1px solid rgba(220,74,107,0.15);border-radius:var(--radius-sm)}
+.rec-kpi-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:var(--som);margin-bottom:12px}
+.rec-kpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.rec-kpi-item{text-align:center;padding:12px;background:#fff;border-radius:var(--radius-sm)}
+.rec-kpi-metric{display:block;font-size:22px;font-weight:800;color:var(--som);margin-bottom:4px}
+.rec-kpi-desc{font-size:11px;color:var(--mute);line-height:1.4}
 
 /* ── FOOTER ── */
-.footer{
-  text-align:center;padding:2rem;
-  font-size:12px;color:var(--mute);
-  border-top:1px solid var(--line);
-}
+.footer{text-align:center;padding:2rem;font-size:12px;color:var(--mute);border-top:1px solid var(--line)}
 
 /* ── RESPONSIVE ── */
-@media(max-width:1000px){
-  .hero h1{font-size:36px}
-  .hero{padding:3rem 2rem 2rem}
-  .main{padding:0 2rem 3rem}
-  .grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}
-}
-@media(max-width:700px){
-  .hero h1{font-size:28px}
-  .hero,.main{padding:2rem 1.2rem}
-  .grid-3,.grid-2,.grid-4{grid-template-columns:1fr}
-  .verdict{flex-direction:column;gap:1rem}
-}
+@media(max-width:1000px){.hero h1{font-size:36px}.hero{padding:3rem 2rem 2rem}.main{padding:0 2rem 3rem}.grid-3,.grid-4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.hero h1{font-size:28px}.hero,.main{padding:2rem 1.2rem}.grid-3,.grid-2,.grid-4{grid-template-columns:1fr}.verdict{flex-direction:column;gap:1rem}}
 </style>
 </head>
 <body>
 
 <div class="hero">
-  <div class="hero-label">🔬 TikTok Shop Sentiment Analysis</div>
-  <h1>
-    <span class="som">Somethinc</span>
-    <span class="dim">vs</span>
-    <span class="skn">Skintific</span>
-  </h1>
-  <p class="hero-sub">
-    Perbandingan 2.000 ulasan dari TikTok Shop — sentimen, rating, keluhan, 
-    dan pola afiliasi. Dibangun dengan Scraping Tokopedia + NLP.
-  </p>
+  <div class="hero-label">TikTok Shop Sentiment Analysis</div>
+  <h1><span class="som">Somethinc</span> <span class="dim">vs</span> <span class="skn">Skintific</span></h1>
+  <p class="hero-sub">Perbandingan 2.000 ulasan dari TikTok Shop — sentimen, rating, keluhan, dan pola afiliasi.</p>
 
   <div class="verdict" id="verdict-area">
     <div class="verdict-brand som">
       <h3>Somethinc</h3>
-      <div class="verdict-row">
-        <span class="verdict-score" id="v-som-rating">—</span>
-        <span class="verdict-label">avg rating</span>
-      </div>
-      <div class="verdict-row">
-        <span class="verdict-score" id="v-som-pos" style="font-size:28px">—</span>
-        <span class="verdict-label">positif</span>
-        <span class="badge xs outline som" id="v-som-badge">—</span>
-      </div>
+      <div class="verdict-row"><span class="verdict-score" id="v-som-rating">—</span><span class="verdict-label">avg rating</span></div>
+      <div class="verdict-row"><span class="verdict-score" id="v-som-pos" style="font-size:28px">—</span><span class="verdict-label">positif</span><span class="badge xs outline som" id="v-som-badge">—</span></div>
       <div class="verdict-bar"><div class="verdict-bar-fill" id="v-som-bar" style="width:0%"></div></div>
     </div>
-
     <div class="verdict-brand skn">
       <h3>Skintific</h3>
-      <div class="verdict-row">
-        <span class="verdict-score" id="v-skn-rating">—</span>
-        <span class="verdict-label">avg rating</span>
-      </div>
-      <div class="verdict-row">
-        <span class="verdict-score" id="v-skn-pos" style="font-size:28px">—</span>
-        <span class="verdict-label">positif</span>
-        <span class="badge xs outline skn" id="v-skn-badge">—</span>
-      </div>
+      <div class="verdict-row"><span class="verdict-score" id="v-skn-rating">—</span><span class="verdict-label">avg rating</span></div>
+      <div class="verdict-row"><span class="verdict-score" id="v-skn-pos" style="font-size:28px">—</span><span class="verdict-label">positif</span><span class="badge xs outline skn" id="v-skn-badge">—</span></div>
       <div class="verdict-bar"><div class="verdict-bar-fill" id="v-skn-bar" style="width:0%"></div></div>
     </div>
   </div>
@@ -364,193 +170,194 @@ canvas{width:100%!important}
 
   <!-- ═══ OVERVIEW ═══ -->
   <div class="sec" id="overview">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--som)"></div>
-      <div>
-        <h2>Ringkasan Sentimen</h2>
-        <p>Distribusi sentimen &amp; rating comparison</p>
-      </div>
-    </div>
-
+    <div class="sec-header"><div class="sec-accent" style="background:var(--som)"></div><div><h2>Ringkasan Sentimen</h2><p>Distribusi sentimen &amp; rating comparison</p></div></div>
     <div class="grid-4" id="kpi-grid">
       <div class="card"><div class="card-title">Total Ulasan</div><div class="stat-row" id="kpi-total" style="font-size:32px;font-weight:800">—</div></div>
       <div class="card"><div class="card-title">Positif</div><div class="stat-row" id="kpi-pos" style="font-size:32px;font-weight:800;color:var(--pos)">—</div></div>
       <div class="card"><div class="card-title">Netral</div><div class="stat-row" id="kpi-neu" style="font-size:32px;font-weight:800;color:var(--neu)">—</div></div>
       <div class="card"><div class="card-title">Negatif</div><div class="stat-row" id="kpi-neg" style="font-size:32px;font-weight:800;color:var(--neg)">—</div></div>
     </div>
-
     <div class="grid-3">
-      <div class="card">
-        <div class="card-title">Distribusi Sentimen</div>
-        <div class="chart-box" style="max-height:250px;display:flex;justify-content:center"><canvas id="c-overview-sent"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Rating Distribution</div>
-        <div class="chart-box"><canvas id="c-overview-rating"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Brand Comparison</div>
-        <div class="chart-box"><canvas id="c-overview-brand"></canvas></div>
-        <div class="insight green" id="insight-brand"><div class="insight-icon">i</div><span>Memuat...</span></div>
-      </div>
+      <div class="card"><div class="card-title">Distribusi Sentimen</div><div class="chart-box" style="max-height:250px;display:flex;justify-content:center"><canvas id="c-overview-sent"></canvas></div></div>
+      <div class="card"><div class="card-title">Rating Distribution</div><div class="chart-box"><canvas id="c-overview-rating"></canvas></div></div>
+      <div class="card"><div class="card-title">Brand Comparison</div><div class="chart-box"><canvas id="c-overview-brand"></canvas></div><div class="insight green" id="insight-brand"><div class="insight-icon">i</div><span>Memuat...</span></div></div>
     </div>
   </div>
 
   <!-- ═══ COMPETITIVE ═══ -->
   <div class="sec" id="competitive">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--skn)"></div>
-      <div>
-        <h2>Competitive Benchmark</h2>
-        <p>Perbandingan aspek, kata pujian &amp; keluhan</p>
-      </div>
-    </div>
-
+    <div class="sec-header"><div class="sec-accent" style="background:var(--skn)"></div><div><h2>Competitive Benchmark</h2><p>Perbandingan aspek, kata pujian &amp; keluhan</p></div></div>
     <div class="grid-3">
-      <div class="card" style="grid-column:span 2">
-        <div class="card-title">Aspect Sentiment Radar</div>
-        <div class="chart-box"><canvas id="c-comp-radar"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Sentiment Gap</div>
-        <div class="chart-box"><canvas id="c-comp-gap"></canvas></div>
-      </div>
+      <div class="card" style="grid-column:span 2"><div class="card-title">Aspect Sentiment Radar</div><div class="chart-box"><canvas id="c-comp-radar"></canvas></div></div>
+      <div class="card"><div class="card-title">Sentiment Gap</div><div class="chart-box"><canvas id="c-comp-gap"></canvas></div></div>
     </div>
-
     <div class="grid-2">
-      <div class="card">
-        <div class="card-title">Somethinc — Most Praised</div>
-        <div class="chart-box" style="min-height:200px"><canvas id="c-som-praised"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Skintific — Most Praised</div>
-        <div class="chart-box" style="min-height:200px"><canvas id="c-skn-praised"></canvas></div>
-      </div>
+      <div class="card"><div class="card-title">Somethinc — Most Praised</div><div class="chart-box" style="min-height:200px"><canvas id="c-som-praised"></canvas></div></div>
+      <div class="card"><div class="card-title">Skintific — Most Praised</div><div class="chart-box" style="min-height:200px"><canvas id="c-skn-praised"></canvas></div></div>
+    </div>
+    <div class="grid-2">
+      <div class="card"><div class="card-title">Somethinc — Most Complained</div><div class="chart-box" style="min-height:200px"><canvas id="c-som-complained"></canvas></div></div>
+      <div class="card"><div class="card-title">Skintific — Most Complained</div><div class="chart-box" style="min-height:200px"><canvas id="c-skn-complained"></canvas></div></div>
     </div>
   </div>
 
   <!-- ═══ PRODUCT ═══ -->
   <div class="sec" id="product">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--som)"></div>
-      <div>
-        <h2>Product Analysis</h2>
-        <p>Negatif % per produk &amp; feature evaluation</p>
-      </div>
-    </div>
-
+    <div class="sec-header"><div class="sec-accent" style="background:var(--som)"></div><div><h2>Product Analysis</h2><p>Negatif % per produk &amp; feature evaluation</p></div></div>
     <div class="grid-2">
-      <div class="card">
-        <div class="card-title">Somethinc — Negative % per Produk</div>
-        <div class="chart-box" style="min-height:220px"><canvas id="c-som-prod"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Skintific — Negative % per Produk</div>
-        <div class="chart-box" style="min-height:220px"><canvas id="c-skn-prod"></canvas></div>
-      </div>
+      <div class="card"><div class="card-title">Somethinc — Negative % per Produk</div><div class="chart-box" style="min-height:220px"><canvas id="c-som-prod"></canvas></div></div>
+      <div class="card"><div class="card-title">Skintific — Negative % per Produk</div><div class="chart-box" style="min-height:220px"><canvas id="c-skn-prod"></canvas></div></div>
     </div>
-
     <div class="grid-2">
-      <div class="card">
-        <div class="card-title">Somethinc — Feature Complaints</div>
-        <div class="chart-box"><canvas id="c-som-feat"></canvas></div>
-      </div>
-      <div class="card">
-        <div class="card-title">Skintific — Feature Complaints</div>
-        <div class="chart-box"><canvas id="c-skn-feat"></canvas></div>
-      </div>
+      <div class="card"><div class="card-title">Somethinc — Feature Complaints</div><div class="chart-box"><canvas id="c-som-feat"></canvas></div></div>
+      <div class="card"><div class="card-title">Skintific — Feature Complaints</div><div class="chart-box"><canvas id="c-skn-feat"></canvas></div></div>
     </div>
   </div>
 
   <!-- ═══ OPERATIONS ═══ -->
   <div class="sec" id="operations">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--neu)"></div>
-      <div>
-        <h2>Operational Issues</h2>
-        <p>Pengiriman, kemasan, CS response, barang salah</p>
-      </div>
+    <div class="sec-header"><div class="sec-accent" style="background:var(--neu)"></div><div><h2>Operational Issues</h2><p>Pengiriman, kemasan, CS response, barang salah</p></div></div>
+    <div class="grid-2">
+      <div class="card"><div class="card-title">Somethinc</div><div class="chart-box" style="min-height:200px"><canvas id="c-ops-som"></canvas></div></div>
+      <div class="card"><div class="card-title">Skintific</div><div class="chart-box" style="min-height:200px"><canvas id="c-ops-skn"></canvas></div></div>
     </div>
-    <div class="grid-2" id="ops-grid"></div>
   </div>
 
   <!-- ═══ PRICE & AFFILIATE ═══ -->
   <div class="sec" id="pricing">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--skn)"></div>
-      <div>
-        <h2>Price Sensitivity &amp; Affiliate</h2>
-        <p>Dampak harga dan afiliasi terhadap sentimen</p>
-      </div>
+    <div class="sec-header"><div class="sec-accent" style="background:var(--skn)"></div><div><h2>Price Sensitivity &amp; Affiliate</h2><p>Dampak harga dan afiliasi terhadap sentimen</p></div></div>
+    <div class="grid-2">
+      <div class="card"><div class="card-title">Price Sensitivity</div><div class="chart-box" style="min-height:200px"><canvas id="c-price"></canvas></div></div>
+      <div class="card"><div class="card-title">Discount Effect</div><div class="chart-box" style="min-height:200px"><canvas id="c-discount"></canvas></div></div>
     </div>
-    <div class="grid-2" id="price-grid"></div>
-    <div class="grid-2" id="affiliate-grid" style="margin-top:16px"></div>
+    <div class="grid-2">
+      <div class="card"><div class="card-title">Affiliate Comparison</div><div class="chart-box" style="min-height:200px"><canvas id="c-affiliate"></canvas></div></div>
+      <div class="card"><div class="card-title">Rating Inflation</div><div class="chart-box" style="min-height:200px"><canvas id="c-inflation"></canvas></div></div>
+    </div>
   </div>
 
   <!-- ═══ ANOMALY ═══ -->
   <div class="sec" id="anomaly">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--neg)"></div>
-      <div>
-        <h2>Anomaly Detection</h2>
-        <p>Review mencurigakan — rating tinggi tapi teks negatif</p>
-      </div>
+    <div class="sec-header"><div class="sec-accent" style="background:var(--neg)"></div><div><h2>Anomaly Detection</h2><p>Review mencurigakan — rating tinggi tapi teks negatif</p></div></div>
+    <div class="grid-2">
+      <div class="card"><div class="card-title">Suspicious per Brand</div><div class="chart-box" style="min-height:220px"><canvas id="c-anomaly-brand"></canvas></div></div>
+      <div class="card"><div class="card-title">Suspicious %</div><div class="chart-box" style="min-height:220px"><canvas id="c-anomaly-pct"></canvas></div></div>
     </div>
-    <div class="grid-3" id="anomaly-grid"></div>
+    <div class="grid-3" id="anomaly-highlights"></div>
   </div>
 
   <!-- ═══ TEMPORAL ═══ -->
   <div class="sec" id="temporal">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--som)"></div>
-      <div>
-        <h2>Temporal Trends</h2>
-        <p>Pola mingguan &amp; timeline berdasarkan usia review</p>
-      </div>
+    <div class="sec-header"><div class="sec-accent" style="background:var(--som)"></div><div><h2>Temporal Trends</h2><p>Pola mingguan &amp; timeline berdasarkan usia review</p></div></div>
+    <div class="grid-3">
+      <div class="card"><div class="card-title">Weekly Negative % Pattern</div><div class="chart-box"><canvas id="c-weekly"></canvas></div></div>
+      <div class="card"><div class="card-title">Brand Timeline</div><div class="chart-box"><canvas id="c-timeline"></canvas></div></div>
+      <div class="card"><div class="card-title">Peak Complaint Days</div><div class="chart-box"><canvas id="c-peak"></canvas></div></div>
+    </div>
+  </div>
+
+  <!-- ═══ CUSTOMER ═══ -->
+  <div class="sec" id="customer">
+    <div class="sec-header"><div class="sec-accent" style="background:var(--pos)"></div><div><h2>Customer Loyalty &amp; R&amp;D</h2><p>Repeat purchase &amp; feature requests</p></div></div>
+    <div class="grid-4" id="cust-kpi-grid">
+      <div class="card"><div class="card-title">Somethinc Repeat</div><div id="kpi-som-repeat" style="font-size:32px;font-weight:800;color:var(--som)">—</div></div>
+      <div class="card"><div class="card-title">Skintific Repeat</div><div id="kpi-skn-repeat" style="font-size:32px;font-weight:800;color:var(--skn)">—</div></div>
+      <div class="card"><div class="card-title">Somethinc Requests</div><div id="kpi-som-requests" style="font-size:32px;font-weight:800;color:var(--som)">—</div></div>
+      <div class="card"><div class="card-title">Skintific Requests</div><div id="kpi-skn-requests" style="font-size:32px;font-weight:800;color:var(--skn)">—</div></div>
     </div>
     <div class="grid-2">
-      <div class="card">
-        <div class="card-title">Weekly Negative % Pattern</div>
-        <div class="chart-box"><canvas id="c-weekly"></canvas></div>
+      <div class="card"><div class="card-title">Most Repeated Products</div><div class="chart-box"><canvas id="c-repeat-prod"></canvas></div></div>
+      <div class="card"><div class="card-title">Most Requested Products</div><div class="chart-box"><canvas id="c-feature-req"></canvas></div></div>
+    </div>
+    <div class="grid-3" id="cust-insights"></div>
+  </div>
+
+  <!-- ═══ RECOMMENDATIONS ═══ -->
+  <div class="sec" id="recommendations">
+    <div class="sec-header"><div class="sec-accent" style="background:var(--som)"></div><div><h2>Insights &amp; Recommendations</h2><p>Rekomendasi strategis untuk Somethinc berdasarkan 10 sudut pandang analisis</p></div></div>
+
+    <div class="grid-4" id="rec-kpis">
+      <div class="card"><div class="card-title">Somethinc Rating</div><div id="rec-som-rating" style="font-size:28px;font-weight:800;color:var(--som)">—</div></div>
+      <div class="card"><div class="card-title">Skintific Rating</div><div id="rec-skn-rating" style="font-size:28px;font-weight:800;color:var(--skn)">—</div></div>
+      <div class="card"><div class="card-title">Rating Gap</div><div id="rec-rating-gap" style="font-size:28px;font-weight:800;color:var(--pos)">—</div></div>
+      <div class="card"><div class="card-title">Anomali</div><div id="rec-anomalies" style="font-size:28px;font-weight:800;color:var(--neg)">—</div></div>
+    </div>
+    <div class="grid-3" id="rec-insights"></div>
+
+    <div class="rec-section">
+      <h3 class="rec-section-title">Rekomendasi Strategis — Somethinc</h3>
+      <p class="rec-section-desc">Berdasarkan analisis 2.000 review TikTok Shop.</p>
+
+      <div class="rec-card rec-priority-1">
+        <div class="rec-header"><span class="rec-priority-badge">#1 PRIORITAS</span></div>
+        <h4 class="rec-title">Turunkan Hambatan Harga — Luncurkan Varian Ekonomis</h4>
+        <div class="rec-body">
+          <div class="rec-row"><span class="rec-label">Masalah</span><span class="rec-value" id="rec1-problem">Memuat...</span></div>
+          <div class="rec-row"><span class="rec-label">Solusi</span><span class="rec-value">Buat <strong>varian ekonomis</strong> (ukuran kecil/travel pack/trial kit) harga 40-50% lebih rendah. Kemasan sederhana. Promosikan sebagai entry point untuk pelanggan baru yang ragu dengan harga premium.</span></div>
+          <div class="rec-kpi-box">
+            <div class="rec-kpi-label">Target 3 Bulan</div>
+            <div class="rec-kpi-grid">
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" id="rec1-kpi1">—</span><span class="rec-kpi-desc">Turun komplain harga</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" id="rec1-kpi2">—</span><span class="rec-kpi-desc">Naik rating buyer baru</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" id="rec1-kpi3">—</span><span class="rec-kpi-desc">Penetrasi first-time</span></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <div class="card-title">Brand Timeline</div>
-        <div class="chart-box"><canvas id="c-timeline"></canvas></div>
+
+      <div class="rec-card rec-priority-2" style="border-left-color:#3b82f6">
+        <div class="rec-header"><span class="rec-priority-badge" style="background:rgba(59,130,246,0.15);color:#3b82f6">#2 PRIORITAS</span></div>
+        <h4 class="rec-title">Perbaiki Operational Gap — Ubah Booster Jadi Loyalty Driver</h4>
+        <div class="rec-body">
+          <div class="rec-row"><span class="rec-label">Masalah</span><span class="rec-value" id="rec2-problem">Memuat...</span></div>
+          <div class="rec-row"><span class="rec-label">Solusi</span><span class="rec-value">Investasi packing aman (double bubble wrap). Standarisasi QC packaging. Tracking real-time. Target: <strong>zero broken package</strong> dalam 3 bulan.</span></div>
+          <div class="rec-kpi-box" style="border-color:rgba(59,130,246,0.15);background:rgba(59,130,246,0.04)">
+            <div class="rec-kpi-label" style="color:#3b82f6">Target 3 Bulan</div>
+            <div class="rec-kpi-grid">
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:#3b82f6" id="rec2-kpi1">—</span><span class="rec-kpi-desc">Turun komplain ops</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:#3b82f6" id="rec2-kpi2">—</span><span class="rec-kpi-desc">Rating terjaga</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:#3b82f6" id="rec2-kpi3">—</span><span class="rec-kpi-desc">Eliminasi false negatives</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rec-card rec-priority-3">
+        <div class="rec-header"><span class="rec-priority-badge" style="background:rgba(122,92,240,0.15);color:var(--skn)">#3 PRIORITAS</span></div>
+        <h4 class="rec-title">R&amp;D Texture Innovation — Kuasai Segmen Kulit Berminyak</h4>
+        <div class="rec-body">
+          <div class="rec-row"><span class="rec-label">Masalah</span><span class="rec-value" id="rec3-problem">Memuat...</span></div>
+          <div class="rec-row"><span class="rec-label">Solusi</span><span class="rec-value">Kembangkan <strong>varian oil-free / gel-based</strong> untuk produk yang dikeluhkan berat. Formulasi cepat serap dengan klaim non-comedogenic. Testimoni real user dari TikTok.</span></div>
+          <div class="rec-kpi-box" style="border-color:var(--skn);background:var(--skn-light)">
+            <div class="rec-kpi-label" style="color:var(--skn)">Target 3 Bulan</div>
+            <div class="rec-kpi-grid">
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:var(--skn)" id="rec3-kpi1">—</span><span class="rec-kpi-desc">Rating oil-skin naik</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:var(--skn)" id="rec3-kpi2">—</span><span class="rec-kpi-desc">Turun keluhan tekstur</span></div>
+              <div class="rec-kpi-item"><span class="rec-kpi-metric" style="color:var(--skn)" id="rec3-kpi3">—</span><span class="rec-kpi-desc">Market share naik</span></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <!-- ═══ REPEAT PURCHASE ═══ -->
-  <div class="sec" id="repeat">
-    <div class="sec-header">
-      <div class="sec-accent" style="background:var(--pos)"></div>
-      <div>
-        <h2>Repeat Purchase Intent</h2>
-        <p>Indikasi pembelian ulang dari ulasan</p>
-      </div>
-    </div>
-    <div class="grid-4" id="repeat-grid"></div>
-  </div>
-
 </div>
 
-<div class="footer">
-  Somethinc vs Skintific · TikTok Shop Sentiment Analysis · 2.000 reviews · Scraping Tokopedia + NLP Pipeline · 2026
-</div>
+<div class="footer">Somethinc vs Skintific · TikTok Shop Sentiment Analysis · 2.000 reviews · Scraping Tokopedia + NLP Pipeline · 2026</div>
 
 <script>
 const C = {
-  som: '#DC4A6B', somAlpha: 'rgba(220,74,107,0.15)',
-  skn: '#7A5CF0', sknAlpha: 'rgba(122,92,240,0.15)',
-  pos: '#2E9B5E', neg: '#D94848', neu: '#D4A026',
-  text: '#7A767C', grid: 'rgba(0,0,0,0.05)'
+  som:'#DC4A6B', somAlpha:'rgba(220,74,107,0.15)',
+  skn:'#7A5CF0', sknAlpha:'rgba(122,92,240,0.15)',
+  pos:'#2E9B5E', neg:'#D94848', neu:'#D4A026',
+  text:'#7A767C', grid:'rgba(0,0,0,0.05)'
 };
 const F = {family:"'Inter',sans-serif",size:11,color:C.text};
 const BASE = {responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},layout:{padding:{right:8,top:6}}};
 const CH = {};
 function mkChart(id,type,data,opts){
+  const el=document.getElementById(id);if(!el)return;
   if(CH[id]){CH[id].data=data;CH[id].options={...CH[id].options,...opts};CH[id].update();return}
-  CH[id]=new Chart(document.getElementById(id),{type,data,options:{...BASE,...opts}});
+  CH[id]=new Chart(el,{type,data,options:{...BASE,...opts}});
 }
 
 let D = null;
@@ -565,6 +372,8 @@ async function load(){
   }
 }
 
+function $(id,v){const e=document.getElementById(id);if(e)e.textContent=v}
+
 function render(){
   const meta=D._meta;
   const cb=D['02_competitive_benchmark'];
@@ -576,6 +385,7 @@ function render(){
   const ad=D['09_anomaly_detection'];
   const tt=D['10_temporal_trends'];
   const rp=D['08_repeat_purchase'];
+  const fr=D['06_feature_requests'];
 
   if(!meta||!cb)return;
   const som=cb.somethinc||{},skn=cb.skintific||{};
@@ -586,115 +396,89 @@ function render(){
   const neuPct=((sent.neutral||0)/total*100).toFixed(1);
 
   // ── VERDICT ──
-  const el=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
-  el('v-som-rating',som.avg_rating?.toFixed(2)||'-');
-  el('v-som-pos',som.positive_pct?`${som.positive_pct}%`:'-');
-  el('v-som-badge',som.positive_pct>=80?'Strong':'Moderate');
-  el('v-skn-rating',skn.avg_rating?.toFixed(2)||'-');
-  el('v-skn-pos',skn.positive_pct?`${skn.positive_pct}%`:'-');
-  el('v-skn-badge',skn.positive_pct>=80?'Strong':'Moderate');
-  document.getElementById('v-som-bar').style.width=`${(som.positive_pct||50)}%`;
-  document.getElementById('v-skn-bar').style.width=`${(skn.positive_pct||50)}%`;
+  $('v-som-rating',som.avg_rating?.toFixed(2)||'-');
+  $('v-som-pos',som.positive_pct?`${som.positive_pct}%`:'-');
+  $('v-som-badge',som.positive_pct>=80?'Strong':'Moderate');
+  $('v-skn-rating',skn.avg_rating?.toFixed(2)||'-');
+  $('v-skn-pos',skn.positive_pct?`${skn.positive_pct}%`:'-');
+  $('v-skn-badge',skn.positive_pct>=80?'Strong':'Moderate');
+  $('v-som-bar',null);document.getElementById('v-som-bar').style.width=`${(som.positive_pct||50)}%`;
+  $('v-skn-bar',null);document.getElementById('v-skn-bar').style.width=`${(skn.positive_pct||50)}%`;
 
-  // Winner
   const gap=skn.avg_rating-som.avg_rating;
   const verdictDiv=document.getElementById('verdict-area');
-  const winnerHTML=document.createElement('div');
-  winnerHTML.style.cssText='flex:1;min-width:200px;display:flex;flex-direction:column;justify-content:center';
-  winnerHTML.innerHTML=`
+  const winnerDiv=document.createElement('div');
+  winnerDiv.style.cssText='flex:1;min-width:200px;display:flex;flex-direction:column;justify-content:center';
+  winnerDiv.innerHTML=`
     <div style="font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--mute);margin-bottom:6px">The Verdict</div>
     <div style="font-size:24px;font-weight:800;letter-spacing:-0.5px"><span style="color:${gap>0?'var(--skn)':'var(--som)'}">${gap>0?'Skintific':'Somethinc'}</span> unggul rating</div>
-    <div style="font-size:13px;color:var(--mute);margin-top:4px">Gap rating: <strong>${Math.abs(gap).toFixed(2)}</strong> poin. ${gap>0?'Skintific lebih disukai secara rating, tapi Somethinc unggul di positive % dan sentimen.':''}</div>
-  `;
-  verdictDiv.appendChild(winnerHTML);
+    <div style="font-size:13px;color:var(--mute);margin-top:4px">Gap: <strong>${Math.abs(gap).toFixed(2)}</strong>. ${gap>0?'Skintific rating lebih tinggi, tapi Somethinc unggul di positive % + sentimen.':'Somethinc unggul di rating dan positive %.'}</div>`;
+  verdictDiv.appendChild(winnerDiv);
 
   // ── KPI ──
-  el('kpi-total',total);
-  el('kpi-pos',`${sent.positive||0} (${posPct}%)`);
-  el('kpi-neu',`${sent.neutral||0} (${neuPct}%)`);
-  el('kpi-neg',`${sent.negative||0} (${negPct}%)`);
+  $('kpi-total',total);
+  $('kpi-pos',`${sent.positive||0} (${posPct}%)`);
+  $('kpi-neu',`${sent.neutral||0} (${neuPct}%)`);
+  $('kpi-neg',`${sent.negative||0} (${negPct}%)`);
 
-  // ── CHARTS ──
-  // Overview Sentiment
+  // ── CHARTS: Overview ──
   mkChart('c-overview-sent','doughnut',{
     labels:['Positif','Netral','Negatif'],
     datasets:[{data:[sent.positive||0,sent.neutral||0,sent.negative||0],backgroundColor:[C.pos,C.neu,C.neg],borderWidth:0,hoverOffset:8}]
   },{cutout:'68%',plugins:{legend:{display:true,position:'bottom',labels:{color:C.text,font:{size:11,family:"'Inter',sans-serif"},boxWidth:10,padding:14}}}});
 
-  // Rating Distribution (grouped bar)
   const somRD=som.rating_distribution||{},sknRD=skn.rating_distribution||{};
-  const allR=['1','2','3','4','5'];
   mkChart('c-overview-rating','bar',{
-    labels:allR.map(r=>`${r}B1`),
+    labels:['1','2','3','4','5'],
     datasets:[
-      {label:'Somethinc',data:allR.map(r=>somRD[r]||0),backgroundColor:C.som,borderRadius:4},
-      {label:'Skintific',data:allR.map(r=>sknRD[r]||0),backgroundColor:C.skn,borderRadius:4}
+      {label:'Somethinc',data:['1','2','3','4','5'].map(r=>somRD[r]||0),backgroundColor:C.som,borderRadius:4},
+      {label:'Skintific',data:['1','2','3','4','5'].map(r=>sknRD[r]||0),backgroundColor:C.skn,borderRadius:4}
     ]
-  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}}},
-    scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
+  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
 
-  // Brand Comparison
   mkChart('c-overview-brand','bar',{
     labels:['Rating','Positif %','Negatif %'],
     datasets:[
       {label:'Somethinc',data:[som.avg_rating,som.positive_pct,som.negative_pct],backgroundColor:C.somAlpha,borderColor:C.som,borderWidth:2,borderRadius:4},
       {label:'Skintific',data:[skn.avg_rating,skn.positive_pct,skn.negative_pct],backgroundColor:C.sknAlpha,borderColor:C.skn,borderWidth:2,borderRadius:4}
     ]
-  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}}},
-    scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
+  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
 
-  document.getElementById('insight-brand').innerHTML=`<div class="insight-icon">i</div><span>Somethinc unggul di positive % (<strong>${som.positive_pct}%</strong> vs <strong>${skn.positive_pct}%</strong>) meski rating lebih rendah. Skintific rating lebih tinggi tapi positive % hampir sama — kemungkinan terpengaruh afiliasi.</span>`;
+  $('insight-brand',null);
+  document.getElementById('insight-brand').innerHTML=`<div class="insight-icon">i</div><span>Somethinc unggul positive % (<strong>${som.positive_pct}%</strong> vs <strong>${skn.positive_pct}%</strong>) meski rating lebih rendah. Skintific rating lebih tinggi tapi positive % hampir sama — kemungkinan terpengaruh afiliasi.</span>`;
 
   // ── COMPETITIVE ──
   const gapData=cb.sentiment_gap||{};
   const aw=gapData.aspect_wins||{};
   const aspLabels=Object.keys(aw);
-
   if(aspLabels.length){
-    const somA=aspLabels.map(a=>aw[a].somethinc_avg||0);
-    const sknA=aspLabels.map(a=>aw[a].skintific_avg||0);
     mkChart('c-comp-radar','radar',{
       labels:aspLabels.map(a=>a.charAt(0).toUpperCase()+a.slice(1)),
       datasets:[
-        {label:'Somethinc',data:somA,borderColor:C.som,backgroundColor:C.somAlpha,pointBackgroundColor:C.som,borderWidth:2},
-        {label:'Skintific',data:sknA,borderColor:C.skn,backgroundColor:C.sknAlpha,pointBackgroundColor:C.skn,borderWidth:2}
+        {label:'Somethinc',data:aspLabels.map(a=>aw[a].somethinc_avg||0),borderColor:C.som,backgroundColor:C.somAlpha,pointBackgroundColor:C.som,borderWidth:2},
+        {label:'Skintific',data:aspLabels.map(a=>aw[a].skintific_avg||0),borderColor:C.skn,backgroundColor:C.sknAlpha,pointBackgroundColor:C.skn,borderWidth:2}
       ]
-    },{plugins:{legend:{display:true,position:'bottom',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}}},
-      scales:{r:{beginAtZero:true,grid:{color:C.grid},angleLines:{color:C.grid},pointLabels:{color:C.text,font:{size:10}},ticks:{color:C.text,backdropColor:'transparent'}}}});
+    },{plugins:{legend:{display:true,position:'bottom',labels:{color:C.text,font:{size:10,family:"'Inter',sans-serif"},boxWidth:8,usePointStyle:true}},scales:{r:{beginAtZero:true,grid:{color:C.grid},angleLines:{color:C.grid},pointLabels:{color:C.text,font:{size:10}},ticks:{color:C.text,backdropColor:'transparent'}}}});
 
-    // Sentiment Gap bar
-    const gapVals=aspLabels.map(a=>aw[a].gap||0);
     mkChart('c-comp-gap','bar',{
       labels:aspLabels.map(a=>a.charAt(0).toUpperCase()+a.slice(1)),
-      datasets:[{
-        label:'Somethinc — Skintific',
-        data:gapVals,
-        backgroundColor:gapVals.map(v=>v>0?C.som:C.skn),
-        borderRadius:4
-      }]
-    },{plugins:{legend:{display:false}},
-      scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
+      datasets:[{label:'Somethinc — Skintific',data:aspLabels.map(a=>aw[a].gap||0),backgroundColor:aspLabels.map(a=>(aw[a].gap||0)>0?C.som:C.skn),borderRadius:4}]
+    },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
   }
 
   // Most Praised
-  const somPraised=Object.entries(som.most_praised_words||{}).slice(0,10);
-  const sknPraised=Object.entries(skn.most_praised_words||{}).slice(0,10);
-  if(somPraised.length){
-    mkChart('c-som-praised','bar',{
-      labels:somPraised.map(([k])=>k),
-      datasets:[{label:'Somethinc',data:somPraised.map(([_,v])=>v),backgroundColor:C.som,borderRadius:4}]
-    },{indexAxis:'y',plugins:{legend:{display:false}},
-      scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
-  }
-  if(sknPraised.length){
-    mkChart('c-skn-praised','bar',{
-      labels:sknPraised.map(([k])=>k),
-      datasets:[{label:'Skintific',data:sknPraised.map(([_,v])=>v),backgroundColor:C.skn,borderRadius:4}]
-    },{indexAxis:'y',plugins:{legend:{display:false}},
-      scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
-  }
+  const somP=Object.entries(som.most_praised_words||{}).slice(0,10);
+  const sknP=Object.entries(skn.most_praised_words||{}).slice(0,10);
+  if(somP.length) mkChart('c-som-praised','bar',{labels:somP.map(([k])=>k),datasets:[{label:'Somethinc',data:somP.map(([_,v])=>v),backgroundColor:C.som,borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
+  if(sknP.length) mkChart('c-skn-praised','bar',{labels:sknP.map(([k])=>k),datasets:[{label:'Skintific',data:sknP.map(([_,v])=>v),backgroundColor:C.skn,borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
 
-  // ── PRODUCT ANALYSIS ──
+  // Most Complained
+  const somC=Object.entries(som.most_complained_words||{}).slice(0,10);
+  const sknC=Object.entries(skn.most_complained_words||{}).slice(0,10);
+  if(somC.length) mkChart('c-som-complained','bar',{labels:somC.map(([k])=>k),datasets:[{label:'Somethinc',data:somC.map(([_,v])=>v),backgroundColor:C.neg,borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
+  if(sknC.length) mkChart('c-skn-complained','bar',{labels:sknC.map(([k])=>k),datasets:[{label:'Skintific',data:sknC.map(([_,v])=>v),backgroundColor:C.neg,borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:10}},grid:{display:false}}}});
+
+  // ── PRODUCT ──
   if(pi){
     const somProds=Object.entries(pi).filter(([k])=>!k.startsWith('skn'));
     const sknProds=Object.entries(pi).filter(([k])=>k.startsWith('skn'));
@@ -703,192 +487,240 @@ function render(){
     const sknLabels=sknProds.map(([k])=>k.replace(/^skn-/,''));
     const sknNeg=sknProds.map(([_,v])=>v.negative_pct||0);
 
-    mkChart('c-som-prod','bar',{
-      labels:somLabels,
-      datasets:[{label:'Negatif %',data:somNeg,backgroundColor:somNeg.map(v=>v>15?C.neg:v>10?C.neu:C.pos),borderRadius:4}]
-    },{indexAxis:'y',plugins:{legend:{display:false}},
-      scales:{x:{beginAtZero:true,max:Math.max(...somNeg,20)+10,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
+    mkChart('c-som-prod','bar',{labels:somLabels,datasets:[{label:'Negatif %',data:somNeg,backgroundColor:somNeg.map(v=>v>15?C.neg:v>10?C.neu:C.pos),borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,max:Math.max(...somNeg,20)+10,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
+    mkChart('c-skn-prod','bar',{labels:sknLabels,datasets:[{label:'Negatif %',data:sknNeg,backgroundColor:sknNeg.map(v=>v>15?C.neg:v>10?C.neu:C.pos),borderRadius:4}]},{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{beginAtZero:true,max:Math.max(...sknNeg,20)+10,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
 
-    mkChart('c-skn-prod','bar',{
-      labels:sknLabels,
-      datasets:[{label:'Negatif %',data:sknNeg,backgroundColor:sknNeg.map(v=>v>15?C.neg:v>10?C.neu:C.pos),borderRadius:4}]
-    },{indexAxis:'y',plugins:{legend:{display:false}},
-      scales:{x:{beginAtZero:true,max:Math.max(...sknNeg,20)+10,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
-
-    // Feature evaluation (dual axis)
-    buildFeatChart(fe?.somethinc||{},'c-som-feat',C.som);
-    buildFeatChart(fe?.skintific||{},'c-skn-feat',C.skn);
+    buildFeat(fe?.somethinc||{},'c-som-feat',C.som);
+    buildFeat(fe?.skintific||{},'c-skn-feat',C.skn);
   }
 
   // ── OPERATIONS ──
-  const opsGrid=document.getElementById('ops-grid');
   if(oi){
-    opsGrid.innerHTML='';
     for(const brand of ['somethinc','skintific']){
       const bd=oi[brand]||{};
       const ops=bd.operational_breakdown||{};
-      const brandColor=brand==='somethinc'?C.som:C.skn;
-      const opsHTML=Object.entries(ops).filter(([_,v])=>v.total_mentions>0).map(([k,v])=>`
-        <div class="card" style="border-left:3px solid ${brandColor}">
-          <div class="card-title">${k.replace(/_/g,' ')}</div>
-          <div style="display:flex;gap:12px;align-items:baseline">
-            <span style="font-size:28px;font-weight:800">${v.total_mentions}</span>
-            <span style="font-size:12px;color:${C.text}">mentions · avg rating ${v.avg_rating?.toFixed(1)||'-'}</span>
-          </div>
-          <div style="font-size:12px;color:${C.text};margin-top:4px">Sentiment impact: ${v.sentiment_impact||0}</div>
-        </div>
-      `).join('');
-      if(opsHTML){
-        opsGrid.innerHTML+=`
-          <div>
-            <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">
-              <span class="badge ${brand==='somethinc'?'som':'skn'} xs">${brand.charAt(0).toUpperCase()+brand.slice(1)}</span>
-              <span style="font-size:12px;color:${C.text}">${bd.total_operational_mentions||0} total operational mentions</span>
-            </div>
-            <div style="display:flex;flex-direction:column;gap:8px">${opsHTML||'<div class="card" style="color:var(--mute)">No operational issues found</div>'}</div>
-          </div>`;
+      const entries=Object.entries(ops).filter(([_,v])=>v.total_mentions>0);
+      const canvasId=brand==='somethinc'?'c-ops-som':'c-ops-skn';
+      const color=brand==='somethinc'?C.som:C.skn;
+      if(entries.length){
+        mkChart(canvasId,'bar',{
+          labels:entries.map(([k])=>k.replace(/_/g,' ')),
+          datasets:[
+            {label:'Mentions',data:entries.map(([_,v])=>v.total_mentions),backgroundColor:color,borderRadius:4,yAxisID:'y'},
+            {label:'Rating',data:entries.map(([_,v])=>v.avg_rating),borderColor:color,borderWidth:2,type:'line',tension:.3,pointRadius:3,pointBackgroundColor:color,yAxisID:'y1'}
+          ]
+        },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:9},boxWidth:6,usePointStyle:true}}},scales:{x:{ticks:{...F,font:{size:8}},grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y1:{position:'right',beginAtZero:true,grid:{display:false},min:1,max:5,ticks:{color:C.text,font:{size:9}}}}});
       }
     }
   }
 
   // ── PRICE & AFFILIATE ──
-  const priceGrid=document.getElementById('price-grid');
   if(ps){
-    priceGrid.innerHTML='';
-    for(const brand of ['somethinc','skintific']){
-      const pd=ps[brand]||{};
-      const bc=brand==='somethinc'?C.som:C.skn;
-      const bcLight=brand==='somethinc'?C.somAlpha:C.sknAlpha;
-      priceGrid.innerHTML+=`
-        <div class="card" style="border-left:3px solid ${bc}">
-          <div class="card-title"><span class="badge ${brand==='somethinc'?'som':'skn'} xs">${brand}</span> Price Sensitivity</div>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px">
-            <div style="background:${bcLight};border-radius:10px;padding:12px;text-align:center">
-              <div style="font-size:10px;color:${C.text};font-weight:500">Price Mention</div>
-              <div style="font-size:22px;font-weight:800;color:${bc}">${pd.price_mention_reviews||0}</div>
-              <div style="font-size:11px;color:${C.text}">reviews</div>
-            </div>
-            <div style="background:${bcLight};border-radius:10px;padding:12px;text-align:center">
-              <div style="font-size:10px;color:${C.text};font-weight:500">Discount Mention</div>
-              <div style="font-size:22px;font-weight:800;color:${bc}">${pd.discount_mention_reviews||0}</div>
-              <div style="font-size:11px;color:${C.text}">reviews</div>
-            </div>
-          </div>
-          <div style="font-size:12px;color:${C.text};margin-top:8px">
-            Avg rating (price mentioners): <strong>${pd.avg_rating_price_mentioners?.toFixed(2)||'-'}</strong>
-            &middot; Discount positive: <strong>${pd.discount_positive_pct||0}%</strong>
-          </div>
-        </div>`;
-    }
+    const psSom=ps.somethinc||{},psSkn=ps.skintific||{};
+    mkChart('c-price','bar',{
+      labels:['Price Mention Reviews','Discount Mention Reviews'],
+      datasets:[
+        {label:'Somethinc',data:[psSom.price_mention_reviews||0,psSom.discount_mention_reviews||0],backgroundColor:C.som,borderRadius:4},
+        {label:'Skintific',data:[psSkn.price_mention_reviews||0,psSkn.discount_mention_reviews||0],backgroundColor:C.skn,borderRadius:4}
+      ]
+    },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
+
+    mkChart('c-discount','bar',{
+      labels:['Somethinc','Skintific'],
+      datasets:[{label:'Discount Positive %',data:[psSom.discount_positive_pct||0,psSkn.discount_positive_pct||0],backgroundColor:[C.som,C.skn],borderRadius:4}]
+    },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,max:100,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}}}});
+
+    // Avg rating comparison
+    mkChart('c-affiliate','bar',{
+      labels:['Price Mentioners','Non-Price','Discount Mentioners'],
+      datasets:[
+        {label:'Somethinc',data:[psSom.avg_rating_price_mentioners||0,psSom.avg_rating_no_price_mention||0,psSom.avg_rating_discount_mentioners||0],backgroundColor:C.som,borderRadius:4},
+        {label:'Skintific',data:[psSkn.avg_rating_price_mentioners||0,psSkn.avg_rating_no_price_mention||0,psSkn.avg_rating_discount_mentioners||0],backgroundColor:C.skn,borderRadius:4}
+      ]
+    },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{min:3,max:5,ticks:F,grid:{color:C.grid}}}});
   }
 
-  const affGrid=document.getElementById('affiliate-grid');
   if(af){
-    const as=af.summary||{};
-    affGrid.innerHTML=`
-      <div class="card">
-        <div class="card-title">Affiliate Overview</div>
-        <div style="display:flex;gap:16px;flex-wrap:wrap">
-          <div><span style="font-size:28px;font-weight:800">${as.affiliate_pct}%</span><div style="font-size:11px;color:${C.text}">Affiliate Reviews</div></div>
-          <div><span style="font-size:28px;font-weight:800">${as.total_reviews-as.affiliate_reviews}</span><div style="font-size:11px;color:${C.text}">Organic</div></div>
-          <div><span style="font-size:28px;font-weight:800;color:${C.neg}">${as.suspicious_reviews}</span><div style="font-size:11px;color:${C.text}">Suspicious</div></div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-title">Rating Inflation</div>
-        <div style="display:flex;gap:16px">
-          <div><div style="font-size:11px;color:${C.text}">Somethinc</div><span style="font-size:24px;font-weight:800;color:${C.som}">${((af.somethinc?.rating_inflation||0)*100).toFixed(1)}%</span></div>
-          <div><div style="font-size:11px;color:${C.text}">Skintific</div><span style="font-size:24px;font-weight:800;color:${C.skn}">${((af.skintific?.rating_inflation||0)*100).toFixed(1)}%</span></div>
-        </div>
-        <div style="font-size:12px;color:${C.text};margin-top:8px" id="inflation-insight"></div>
-      </div>`;
-    document.getElementById('inflation-insight').textContent=
-      `Skintific punya rating inflation ${((af.skintific?.rating_inflation||0)*100).toFixed(1)}% dari afiliasi — affiliate lebih tinggi ratingnya dibanding organic.`;
+    const afSom=af.somethinc||{},afSkn=af.skintific||{};
+    mkChart('c-inflation','bar',{
+      labels:['Somethinc','Skintific'],
+      datasets:[{label:'Rating Inflation',data:[(afSom.rating_inflation||0)*100,(afSkn.rating_inflation||0)*100],backgroundColor:[C.som,C.skn],borderRadius:4}]
+    },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}}}});
   }
 
   // ── ANOMALY ──
-  const anGrid=document.getElementById('anomaly-grid');
   if(ad){
     const ao=ad.overall||{};
-    anGrid.innerHTML=`
-      <div class="card" style="border-left:3px solid ${C.neg};text-align:center">
-        <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:${C.text}">Total Suspicious</div>
-        <div style="font-size:42px;font-weight:800;color:${C.neg}">${ao.total_suspicious}</div>
-        <div style="font-size:13px;color:${C.text}">${ao.suspicious_pct}% of all reviews</div>
-      </div>
-      <div class="card" style="border-left:3px solid ${C.som}">
-        <div class="card-title">Somethinc</div>
-        <div style="font-size:28px;font-weight:800;color:${C.som}">${ad.somethinc?.total_suspicious||0}</div>
-        <div style="font-size:12px;color:${C.text};margin-top:6px">
-          ${Object.entries(ad.somethinc?.suspicious_by_product||{}).slice(0,4).map(([k,v])=>`<span style="display:inline-block;background:${C.somAlpha};padding:2px 8px;border-radius:99px;margin:2px;font-size:11px">${k}: ${v}</span>`).join('')}
+    const adSom=ad.somethinc||{},adSkn=ad.skintific||{};
+    mkChart('c-anomaly-brand','bar',{
+      labels:['Somethinc','Skintific'],
+      datasets:[{label:'Suspicious Reviews',data:[adSom.total_suspicious||0,adSkn.total_suspicious||0],backgroundColor:[C.som,C.skn],borderRadius:4}]
+    },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
+
+    mkChart('c-anomaly-pct','bar',{
+      labels:['Somethinc','Skintific'],
+      datasets:[{label:'Suspicious %',data:[adSom.suspicious_pct||0,adSkn.suspicious_pct||0],backgroundColor:[C.som,C.skn],borderRadius:4}]
+    },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}}}});
+
+    // Highlight: top suspicious products
+    const somProds=Object.entries(adSom.suspicious_by_product||{}).slice(0,3);
+    const sknProds=Object.entries(adSkn.suspicious_by_product||{}).slice(0,3);
+    const ah=document.getElementById('anomaly-highlights');
+    if(ah){
+      ah.innerHTML=`
+        <div class="card" style="border-left:3px solid ${C.neg}">
+          <div class="card-title">Total Suspicious</div>
+          <div style="font-size:38px;font-weight:800;color:${C.neg}">${ao.total_suspicious}</div>
+          <div style="font-size:13px;color:${C.text}">${ao.suspicious_pct}% of all reviews</div>
         </div>
-      </div>
-      <div class="card" style="border-left:3px solid ${C.skn}">
-        <div class="card-title">Skintific</div>
-        <div style="font-size:28px;font-weight:800;color:${C.skn}">${ad.skintific?.total_suspicious||0}</div>
-        <div style="font-size:12px;color:${C.text};margin-top:6px">
-          ${Object.entries(ad.skintific?.suspicious_by_product||{}).slice(0,4).map(([k,v])=>`<span style="display:inline-block;background:${C.sknAlpha};padding:2px 8px;border-radius:99px;margin:2px;font-size:11px">${k}: ${v}</span>`).join('')}
+        <div class="card" style="border-left:3px solid ${C.som}">
+          <div class="card-title">Somethinc</div>
+          ${somProds.map(([k,v])=>`<span class="badge xs outline som">${k}: ${v}</span>`).join(' ')}
+          <div style="font-size:12px;color:${C.text};margin-top:6px">Rating avg of suspicious: ${adSom.suspicious_avg_rating||'-'}</div>
         </div>
-      </div>`;
+        <div class="card" style="border-left:3px solid ${C.skn}">
+          <div class="card-title">Skintific</div>
+          ${sknProds.map(([k,v])=>`<span class="badge xs outline skn">${k}: ${v}</span>`).join(' ')}
+          <div style="font-size:12px;color:${C.text};margin-top:6px">Rating avg of suspicious: ${adSkn.suspicious_avg_rating||'-'}</div>
+        </div>`;
+    }
   }
 
   // ── TEMPORAL ──
   if(tt){
     const wp=tt.weekly_pattern||{};
     const days=Object.keys(wp);
-    const negPcts=days.map(d=>wp[d].negative_pct||0);
-    const totals=days.map(d=>wp[d].total||0);
     mkChart('c-weekly','bar',{
       labels:days,
       datasets:[
-        {label:'Negative %',data:negPcts,backgroundColor:C.neg,borderRadius:4,yAxisID:'y'},
-        {label:'Total Reviews',data:totals,backgroundColor:C.somAlpha,borderColor:C.som,borderWidth:1,type:'line',tension:.3,pointRadius:3,pointBackgroundColor:C.som,yAxisID:'y1'}
+        {label:'Negative %',data:days.map(d=>wp[d].negative_pct||0),backgroundColor:C.neg,borderRadius:4,yAxisID:'y'},
+        {label:'Reviews',data:days.map(d=>wp[d].total||0),backgroundColor:C.somAlpha,borderColor:C.som,borderWidth:1,type:'line',tension:.3,pointRadius:3,pointBackgroundColor:C.som,yAxisID:'y1'}
       ]
-    },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}}},
-      scales:{
-        x:{ticks:F,grid:{display:false}},
-        y:{beginAtZero:true,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},
-        y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{color:C.text}}
-      }});
+    },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{color:C.text}}}});
 
-    // Brand timeline
     const bt=tt.brand_timeline||{};
-    const somTL=bt.somethinc||{};
-    const sknTL=bt.skintific||{};
+    const somTL=bt.somethinc||{},sknTL=bt.skintific||{};
     const tlLabels=Object.keys(somTL);
     if(tlLabels.length){
       mkChart('c-timeline','bar',{
         labels:tlLabels,
         datasets:[
-          {label:'Somethinc Rating',data:tlLabels.map(l=>somTL[l]?.avg_rating||0),backgroundColor:C.som,borderRadius:3},
-          {label:'Skintific Rating',data:tlLabels.map(l=>sknTL[l]?.avg_rating||0),backgroundColor:C.skn,borderRadius:3}
+          {label:'Somethinc',data:tlLabels.map(l=>somTL[l]?.avg_rating||0),backgroundColor:C.som,borderRadius:3},
+          {label:'Skintific',data:tlLabels.map(l=>sknTL[l]?.avg_rating||0),backgroundColor:C.skn,borderRadius:3}
         ]
-      },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}}},
-        scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,min:3,max:5,ticks:F,grid:{color:C.grid}}}});
+      },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:10},boxWidth:8,usePointStyle:true}},scales:{x:{ticks:F,grid:{display:false}},y:{min:3,max:5,ticks:F,grid:{color:C.grid}}}});
+    }
+
+    // Peak complaint days
+    const pcd=tt.peak_complaint_days||{};
+    const pcdEntries=Object.entries(pcd);
+    if(pcdEntries.length){
+      mkChart('c-peak','bar',{
+        labels:pcdEntries.map(([k])=>k),
+        datasets:[{label:'Negative Reviews',data:pcdEntries.map(([_,v])=>v),backgroundColor:C.neg,borderRadius:4}]
+      },{plugins:{legend:{display:false}},scales:{x:{ticks:F,grid:{display:false}},y:{beginAtZero:true,ticks:F,grid:{color:C.grid}}}});
     }
   }
 
-  // ── REPEAT PURCHASE ──
-  const rpGrid=document.getElementById('repeat-grid');
+  // ── CUSTOMER ──
   if(rp){
-    rpGrid.innerHTML='';
-    for(const brand of ['somethinc','skintific']){
-      const bd=rp[brand]||{};
-      const bc=brand==='somethinc'?C.som:C.skn;
-      rpGrid.innerHTML+=`
-        <div class="card" style="border-left:3px solid ${bc};text-align:center">
-          <div class="card-title"><span class="badge ${brand==='somethinc'?'som':'skn'} xs">${brand}</span></div>
-          <div style="font-size:32px;font-weight:800;color:${bc}">${bd.repeat_purchase_pct||0}%</div>
-          <div style="font-size:11px;color:${C.text}">Repeat purchase intent</div>
-          <div style="font-size:12px;color:${C.text};margin-top:6px">${bd.repeat_purchase_count||0} of ${bd.total_reviews||0} reviews</div>
-        </div>`;
+    $('kpi-som-repeat',rp.somethinc?.repeat_pct?`${rp.somethinc.repeat_pct}%`:'0%');
+    $('kpi-skn-repeat',rp.skintific?.repeat_pct?`${rp.skintific.repeat_pct}%`:'0%');
+    $('kpi-som-requests',fr?.somethinc?.total_feature_requests||0);
+    $('kpi-skn-requests',fr?.skintific?.total_feature_requests||0);
+
+    const somRP=rp.somethinc?.most_repeated_products||{};
+    const sknRP=rp.skintific?.most_repeated_products||{};
+    const allRP=[...new Set([...Object.keys(somRP),...Object.keys(sknRP)])].slice(0,8);
+    if(allRP.length){
+      mkChart('c-repeat-prod','bar',{
+        labels:allRP,
+        datasets:[
+          {label:'Somethinc',data:allRP.map(p=>somRP[p]||0),backgroundColor:C.som,borderRadius:4},
+          {label:'Skintific',data:allRP.map(p=>sknRP[p]||0),backgroundColor:C.skn,borderRadius:4}
+        ]
+      },{indexAxis:'y',plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:9},boxWidth:6,usePointStyle:true}}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
+    }
+
+    // Feature requests
+    if(fr){
+      const somFR=fr.somethinc?.most_requested_products||{};
+      const sknFR=fr.skintific?.most_requested_products||{};
+      const allFR=[...new Set([...Object.keys(somFR),...Object.keys(sknFR)])].slice(0,8);
+      if(allFR.length){
+        mkChart('c-feature-req','bar',{
+          labels:allFR,
+          datasets:[
+            {label:'Somethinc',data:allFR.map(p=>somFR[p]||0),backgroundColor:C.som,borderRadius:4},
+            {label:'Skintific',data:allFR.map(p=>sknFR[p]||0),backgroundColor:C.skn,borderRadius:4}
+          ]
+        },{indexAxis:'y',plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:9},boxWidth:6,usePointStyle:true}}},scales:{x:{beginAtZero:true,ticks:F,grid:{color:C.grid}},y:{ticks:{...F,font:{size:9}},grid:{display:false}}}});
+      }
+    }
+
+    // Customer insights
+    const ci=document.getElementById('cust-insights');
+    if(ci){
+      const somRepeatPct=rp.somethinc?.repeat_pct||0;
+      const sknRepeatPct=rp.skintific?.repeat_pct||0;
+      ci.innerHTML=`
+        <div class="insight green" style="margin-top:0;grid-column:span 3"><div class="insight-icon">i</div>
+        <span>Somethinc repeat <strong>${somRepeatPct}%</strong> vs Skintific <strong>${sknRepeatPct}%</strong>. Feature requests: Somethinc ${fr?.somethinc?.total_feature_requests||0}, Skintific ${fr?.skintific?.total_feature_requests||0}. Ini menunjukkan potensi loyalitas dan celah inovasi.</span></div>`;
     }
   }
+
+  // ── RECOMMENDATIONS ──
+  $('rec-som-rating',som.avg_rating?.toFixed(2)||'-');
+  $('rec-skn-rating',skn.avg_rating?.toFixed(2)||'-');
+  $('rec-rating-gap',`${(gap>=0?'+':'')}${gap.toFixed(2)}`);
+  $('rec-anomalies',ad?.overall?.total_suspicious||0);
+
+  // Key insights
+  const somPricePct=ps?.somethinc?((ps.somethinc.price_mention_reviews/ps.somethinc.total_reviews)*100).toFixed(1):0;
+  const sknDiscountPct=ps?.skintific?((ps.skintific.discount_mention_reviews/ps.skintific.total_reviews)*100).toFixed(1):0;
+  const somRepeatPct=rp?.somethinc?.repeat_pct||0;
+  const sknRepeatPct=rp?.skintific?.repeat_pct||0;
+  const somOpsPct=oi?.somethinc?.pct_of_all_reviews||0;
+  const sknOpsPct=oi?.skintific?.pct_of_all_reviews||0;
+  const somInfl=((af?.somethinc?.rating_inflation||0)*100).toFixed(1);
+  const sknInfl=((af?.skintific?.rating_inflation||0)*100).toFixed(1);
+  const advantage=gap>0?'Skintific':'Somethinc';
+  const advKey=gap>0?'unggul':'perlu waspada';
+
+  const ri=document.getElementById('rec-insights');
+  if(ri){
+    ri.innerHTML=`
+      <div class="insight green" style="margin-top:0;grid-column:span 3;border-left-color:${gap>0?C.skn:C.som}">
+        <div class="insight-icon" style="background:${gap>0?C.skn:C.som}">i</div>
+        <span><strong>${advantage}</strong> ${advKey} secara keseluruhan. Somethinc rating <strong>${(som.avg_rating||0).toFixed(2)}</strong>, Skintific <strong>${(skn.avg_rating||0).toFixed(2)}</strong>. Gap <strong>${Math.abs(gap).toFixed(2)}</strong>. Positive %: Somethinc ${som.positive_pct}% vs Skintific ${skn.positive_pct}%.</span></div>
+      <div class="insight red" style="margin-top:0"><div class="insight-icon">i</div><span><strong>${somPricePct}%</strong> review Somethinc menyebut harga — rating turun jadi <strong>${ps?.somethinc?.avg_rating_price_mentioners?.toFixed(2)||'-'}</strong>. Hambatan terbesar untuk konversi.</span></div>
+      <div class="insight amber" style="margin-top:0"><div class="insight-icon">i</div><span>Skintific <strong>${sknDiscountPct}%</strong> review bicara diskon — sangat dependen promo. Somethinc ${somPricePct}%. Indikasi Skintific susah jual tanpa diskon.</span></div>
+      <div class="insight green" style="margin-top:0"><div class="insight-icon">i</div><span>Somethinc <strong>${somRepeatPct}%</strong> repeat vs Skintific <strong>${sknRepeatPct}%</strong>. Loyalitas premium Somethinc lebih kuat.</span></div>
+      <div class="insight som" style="margin-top:0"><div class="insight-icon">i</div><span>Skintific: ${sknOpsPct}% review masalah operasional vs Somethinc ${somOpsPct}%. Kelemahan yang bisa Somethinc exploit.</span></div>
+      <div class="insight skn" style="margin-top:0"><div class="insight-icon">i</div><span>Skintific <strong>${sknInfl}%</strong> inflasi rating dari afiliasi vs Somethinc <strong>${somInfl}%</strong>. Affiliator Skintific terlalu memuji.</span></div>`;
+  }
+
+  // Rec card details
+  $('rec1-problem',`${somPricePct}% review Somethinc menyebut harga (${ps?.somethinc?.price_mention_reviews||0} dari ${ps?.somethinc?.total_reviews||0}). Rating pembeli yang komplain harga: ${ps?.somethinc?.avg_rating_price_mentioners?.toFixed(2)||'-'} — lebih rendah ${((som.avg_rating||0)-(ps?.somethinc?.avg_rating_price_mentioners||0)).toFixed(2)} dari rata-rata.`);
+  $('rec1-kpi1',`${Math.round(somPricePct*0.4)}%`);
+  $('rec1-kpi2',`+${Math.abs(gap).toFixed(2)}`);
+  $('rec1-kpi3',`${Math.round(somRepeatPct*0.25)}%`);
+
+  $('rec2-problem',`${somOpsPct.toFixed(1)}% review Somethinc masalah operasional. Rating turun saat operasional bermasalah.`);
+  $('rec2-kpi1',`${Math.round(somOpsPct*0.3)}%`);
+  $('rec2-kpi2',(som.avg_rating||0).toFixed(2));
+  $('rec2-kpi3',`${oi?.somethinc?.false_negatives_from_ops||0}`);
+
+  const worstProd=pi?Object.entries(pi).filter(([k])=>!k.startsWith('skn')).sort((a,b)=>(b[1].negative_pct||0)-(a[1].negative_pct||0))[0]:null;
+  $('rec3-problem',`Produk tertentu dikeluhkan berat untuk kulit berminyak. ${fe?.somethinc?.tekstur?.complaint_ratio||0}% keluhan tekstur terdeteksi.${worstProd?` Produk dengan negatif tertinggi: ${worstProd[0].replace(/^som-/,'')} (${worstProd[1].negative_pct}%).`:''}`);
+  $('rec3-kpi1','+0.3');
+  $('rec3-kpi2','-50%');
+  $('rec3-kpi3','+5%');
 }
 
-function buildFeatChart(data,canvasId,color){
+function buildFeat(data,canvasId,color){
   const entries=Object.entries(data||{});
-  if(!entries.length) return;
+  if(!entries.length)return;
   const labels=entries.map(([k])=>k.replace(/_/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));
   const ratios=entries.map(([_,v])=>v.complaint_ratio||0);
   const mentions=entries.map(([_,v])=>v.total_mentions||0);
@@ -898,12 +730,7 @@ function buildFeatChart(data,canvasId,color){
       {label:'Complaint %',data:ratios,backgroundColor:ratios.map(v=>v>50?C.neg:v>30?C.neu:C.pos),borderRadius:3,yAxisID:'y'},
       {label:'Mentions',data:mentions,borderColor:color,backgroundColor:color,type:'line',tension:.3,pointRadius:3,pointBackgroundColor:color,yAxisID:'y1'}
     ]
-  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:9},boxWidth:6,usePointStyle:true}}},
-    scales:{
-      x:{ticks:{...F,font:{size:8}},grid:{display:false}},
-      y:{beginAtZero:true,max:100,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},
-      y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{color:C.text,font:{size:9}}}
-    }});
+  },{plugins:{legend:{display:true,position:'top',labels:{color:C.text,font:{size:9},boxWidth:6,usePointStyle:true}}},scales:{x:{ticks:{...F,font:{size:8}},grid:{display:false}},y:{beginAtZero:true,max:100,ticks:{...F,callback:v=>v+'%'},grid:{color:C.grid}},y1:{position:'right',beginAtZero:true,grid:{display:false},ticks:{color:C.text,font:{size:9}}}});
 }
 
 load();
