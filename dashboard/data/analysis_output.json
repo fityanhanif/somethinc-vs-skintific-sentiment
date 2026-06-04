@@ -891,13 +891,33 @@
         "5": 833
       },
       "most_praised_words": {
+        "pake": 744,
+        "setelah": 478,
+        "kulit": 448,
+        "brand": 389,
         "sehat": 308,
+        "merah": 302,
+        "jadi": 297,
         "beneran": 263,
+        "skincare": 258,
         "repeat": 210,
-        "banget": 198
+        "somethinc": 203,
+        "banget": 198,
+        "minggu": 195,
+        "emang": 187,
+        "lebih": 181
       },
       "most_complained_words": {
-        "mahal": 121
+        "mahal": 121,
+        "tapi": 102,
+        "emang": 102,
+        "beneran": 102,
+        "bagus": 102,
+        "teksturnya": 102,
+        "ringan": 102,
+        "nyerap": 102,
+        "cepet": 102,
+        "lengket": 102
       }
     },
     "skintific": {
@@ -915,15 +935,32 @@
         "5": 653
       },
       "most_praised_words": {
+        "buat": 775,
         "cocok": 460,
+        "langsung": 351,
+        "harga": 313,
+        "ternyata": 284,
         "enak": 284,
+        "juga": 261,
+        "segini": 227,
+        "diskon": 223,
         "lumayan": 187,
+        "gapake": 187,
+        "lama": 187,
         "lembab": 187,
+        "cuma": 187,
         "wanginya": 187
       },
       "most_complained_words": {
+        "pake": 97,
         "lama": 70,
+        "setelah": 45,
+        "minggu": 45,
+        "mungkin": 45,
+        "hasilnya": 40,
         "biasa": 40,
+        "lebih": 36,
+        "banyak": 35,
         "breakout": 34
       }
     },
@@ -1052,8 +1089,8 @@
   },
   "04_operational_issues": {
     "somethinc": {
-      "total_operational_mentions": 133,
-      "pct_of_all_reviews": 13.3,
+      "total_operational_mentions": 14,
+      "pct_of_all_reviews": 1.4,
       "operational_breakdown": {
         "pengiriman_lambat": {
           "total_mentions": 0,
@@ -1063,18 +1100,18 @@
           "pct_of_ops": 0.0
         },
         "kemasan_rusak": {
-          "total_mentions": 2,
-          "negative_count": 2,
-          "avg_rating": 1.5,
-          "sentiment_impact": -14.0,
-          "pct_of_ops": 1.5
+          "total_mentions": 13,
+          "negative_count": 13,
+          "avg_rating": 1.69,
+          "sentiment_impact": -11.69,
+          "pct_of_ops": 92.9
         },
         "packing_kurang": {
-          "total_mentions": 2,
-          "negative_count": 2,
-          "avg_rating": 1.5,
-          "sentiment_impact": -14.0,
-          "pct_of_ops": 1.5
+          "total_mentions": 14,
+          "negative_count": 13,
+          "avg_rating": 1.93,
+          "sentiment_impact": -10.43,
+          "pct_of_ops": 100.0
         },
         "cs_respon": {
           "total_mentions": 0,
@@ -1099,34 +1136,34 @@
         }
       },
       "false_negatives_from_ops": 0,
-      "avg_rating_with_ops_issue": 4.86,
-      "avg_rating_without_ops_issue": 4.71,
-      "rating_gap_due_to_ops": 0.15
+      "avg_rating_with_ops_issue": 1.93,
+      "avg_rating_without_ops_issue": 4.77,
+      "rating_gap_due_to_ops": -2.84
     },
     "skintific": {
-      "total_operational_mentions": 201,
-      "pct_of_all_reviews": 20.1,
+      "total_operational_mentions": 406,
+      "pct_of_all_reviews": 40.6,
       "operational_breakdown": {
         "pengiriman_lambat": {
-          "total_mentions": 51,
-          "negative_count": 9,
-          "avg_rating": 4.29,
-          "sentiment_impact": 0.59,
-          "pct_of_ops": 25.4
+          "total_mentions": 242,
+          "negative_count": 55,
+          "avg_rating": 4.22,
+          "sentiment_impact": -0.07,
+          "pct_of_ops": 59.6
         },
         "kemasan_rusak": {
-          "total_mentions": 1,
-          "negative_count": 1,
-          "avg_rating": 1.0,
-          "sentiment_impact": -16.0,
-          "pct_of_ops": 0.5
+          "total_mentions": 13,
+          "negative_count": 13,
+          "avg_rating": 1.46,
+          "sentiment_impact": -13.23,
+          "pct_of_ops": 3.2
         },
         "packing_kurang": {
-          "total_mentions": 32,
-          "negative_count": 1,
-          "avg_rating": 4.66,
-          "sentiment_impact": 6.28,
-          "pct_of_ops": 15.9
+          "total_mentions": 162,
+          "negative_count": 13,
+          "avg_rating": 4.51,
+          "sentiment_impact": 5.38,
+          "pct_of_ops": 39.9
         },
         "cs_respon": {
           "total_mentions": 0,
@@ -1136,11 +1173,11 @@
           "pct_of_ops": 0.0
         },
         "barang_salah": {
-          "total_mentions": 1,
-          "negative_count": 1,
-          "avg_rating": 2.0,
-          "sentiment_impact": -12.0,
-          "pct_of_ops": 0.5
+          "total_mentions": 15,
+          "negative_count": 5,
+          "avg_rating": 1.53,
+          "sentiment_impact": -4.27,
+          "pct_of_ops": 3.7
         },
         "ekspedisi": {
           "total_mentions": 0,
@@ -1150,10 +1187,10 @@
           "pct_of_ops": 0.0
         }
       },
-      "false_negatives_from_ops": 2,
-      "avg_rating_with_ops_issue": 4.34,
-      "avg_rating_without_ops_issue": 4.37,
-      "rating_gap_due_to_ops": -0.03
+      "false_negatives_from_ops": 9,
+      "avg_rating_with_ops_issue": 4.33,
+      "avg_rating_without_ops_issue": 4.39,
+      "rating_gap_due_to_ops": -0.06
     }
   },
   "05_price_sensitivity": {
@@ -1204,20 +1241,20 @@
   },
   "06_feature_requests": {
     "somethinc": {
-      "total_feature_requests": 188,
+      "total_feature_requests": 21,
       "request_categories": {
         "varian_baru_ukuran": {
           "count": 0,
           "samples": []
         },
         "formula_improvement": {
-          "count": 26,
+          "count": 8,
           "samples": [
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
             "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
             "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
             "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak."
+            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi."
           ]
         },
         "kemasan_improvement": {
@@ -1231,75 +1268,56 @@
           ]
         },
         "harga_bundling": {
-          "count": 18,
-          "samples": [
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berjerawat.",
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat kering.",
-            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak."
-          ]
+          "count": 0,
+          "samples": []
         },
         "produk_baru": {
-          "count": 149,
-          "samples": [
-            "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-            "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-            "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-            "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-            "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal."
-          ]
+          "count": 0,
+          "samples": []
         }
       },
       "most_requested_products": {
-        "Brightening Clay Mask": 29,
-        "5X Ceramide Barrier Repair Moisturizer": 25,
-        "Moisture Bomb": 21,
-        "Retinol Serum": 20,
-        "Niacinamide Serum": 19,
-        "Hyaluronic Acid Toner": 18,
-        "Sunscreen Moisturizer SPF50": 18,
-        "Centella Acne Patch": 17
+        "Physical Sunscreen SPF50": 5,
+        "Retinol Night Cream": 4,
+        "Gentle Cleansing Balm": 3,
+        "Clay Mask": 3,
+        "Hydra Boost Moisturizer": 3,
+        "Acne Pore Serum": 2,
+        "Vitamin C Brightening Serum": 1
       },
       "all_request_texts": [
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
         "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Kecewa banget",
-        "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
         "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
         "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal."
+        "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Gak recommended",
+        "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+        "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Kecewa banget",
+        "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+        "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Kecewa banget",
+        "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+        "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Gak recommended"
       ]
     },
     "skintific": {
-      "total_feature_requests": 188,
+      "total_feature_requests": 167,
       "request_categories": {
         "varian_baru_ukuran": {
           "count": 0,
           "samples": []
         },
         "formula_improvement": {
-          "count": 26,
+          "count": 18,
           "samples": [
             "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
+            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berjerawat.",
+            "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat kering.",
             "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak."
           ]
         },
         "kemasan_improvement": {
-          "count": 21,
-          "samples": [
-            "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Kecewa banget",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-            "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Gak recommended",
-            "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi."
-          ]
+          "count": 0,
+          "samples": []
         },
         "harga_bundling": {
           "count": 18,
@@ -1337,11 +1355,11 @@
         "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
         "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
         "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-        "kemasannya jelek, bocor pas sampe. Udah mahal, packing juga gak rapi. Kecewa banget",
         "produknya oke, tp setelah 3 minggu pake muka malah tambah breakout. Mungkin formula ini gak cocok buat berminyak.",
         "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
-        "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
-        "produknya oke tp kurang suka sama kemasannya yg kurang praktis. Mungkin ekspektasi gw terlalu tinggi.",
+        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
+        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
+        "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal.",
         "pengiriman cepet, packing rapi, produk original. Baru pake seminggu, semoga cocok dan hasilnya maksimal."
       ]
     }
@@ -1468,7 +1486,7 @@
       "suspicious_pct": 4.8,
       "avg_rating_of_suspicious": 4.77,
       "avg_sentiment_of_suspicious": 4.86,
-      "suspicious_alert": "\u2705 Masih dalam batas normal"
+      "suspicious_alert": "✅ Masih dalam batas normal"
     },
     "somethinc": {
       "total_suspicious": 31,
@@ -1566,53 +1584,53 @@
   "10_temporal_trends": {
     "weekly_pattern": {
       "Senin": {
+        "total": 289,
+        "negative": 29,
+        "positive": 236,
+        "avg_rating": 4.48,
+        "negative_pct": 10.0
+      },
+      "Selasa": {
         "total": 294,
         "negative": 28,
         "positive": 247,
         "avg_rating": 4.6,
         "negative_pct": 9.5
       },
-      "Selasa": {
+      "Rabu": {
         "total": 296,
         "negative": 41,
         "positive": 223,
         "avg_rating": 4.55,
         "negative_pct": 13.9
       },
-      "Rabu": {
+      "Kamis": {
         "total": 263,
         "negative": 33,
         "positive": 209,
         "avg_rating": 4.56,
         "negative_pct": 12.5
       },
-      "Kamis": {
+      "Jumat": {
         "total": 295,
         "negative": 32,
         "positive": 235,
         "avg_rating": 4.55,
         "negative_pct": 10.8
       },
-      "Jumat": {
+      "Sabtu": {
         "total": 275,
         "negative": 28,
         "positive": 226,
         "avg_rating": 4.59,
         "negative_pct": 10.2
       },
-      "Sabtu": {
+      "Minggu": {
         "total": 288,
         "negative": 33,
         "positive": 221,
         "avg_rating": 4.48,
         "negative_pct": 11.5
-      },
-      "Minggu": {
-        "total": 289,
-        "negative": 29,
-        "positive": 236,
-        "avg_rating": 4.48,
-        "negative_pct": 10.0
       }
     },
     "brand_timeline": {
@@ -1692,13 +1710,13 @@
       }
     },
     "peak_complaint_days": {
-      "Senin": -16.5,
-      "Selasa": 23.9,
-      "Rabu": 3.7,
-      "Kamis": -2.1,
-      "Jumat": -13.6,
-      "Sabtu": 9.5,
-      "Minggu": -4.9
+      "Senin": -4.9,
+      "Selasa": -16.5,
+      "Rabu": 23.9,
+      "Kamis": 3.7,
+      "Jumat": -2.1,
+      "Sabtu": -13.6,
+      "Minggu": 9.5
     }
   },
   "_meta": {
@@ -1712,6 +1730,6 @@
       "neutral": 179,
       "negative": 224
     },
-    "generated_at": "2026-06-03T15:25:08.766271"
+    "generated_at": "2026-06-04T16:59:51.661068"
   }
 }

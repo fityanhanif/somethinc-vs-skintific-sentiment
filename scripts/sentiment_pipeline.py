@@ -388,7 +388,13 @@ def analyze_04_operational_issues(reviews):
     results = {}
     for brand in ["somethinc", "skintific"]:
         brand_revs = [r for r in reviews if r["brand"] == brand]
-        brand_ops_revs = [r for r in brand_revs if r["has_logistic_mention"]]
+
+        # Find all reviews with TEXT evidence of operational issues (not random flag)
+        ops_keywords_list = list(ops_keywords.values())
+        brand_ops_revs = [
+            r for r in brand_revs
+            if any(kw in r["text"].lower() for kwlist in ops_keywords_list for kw in kwlist)
+        ]
         total_ops_revs = len(brand_ops_revs)
 
         ops_detail = {}
@@ -408,10 +414,10 @@ def analyze_04_operational_issues(reviews):
             }
 
         # False negatives: good product, bad ops → low rating
-        false_negatives = [r for r in brand_revs if r["has_logistic_mention"] and r["rating"] <= 3 and r["sentiment_ml_label"] == "neutral"]
+        false_negatives = [r for r in brand_revs if r not in brand_ops_revs and r["rating"] <= 3 and r["sentiment_ml_label"] == "neutral"]
         false_neg_count = len(false_negatives)
         ops_rating_impact = sum(r["rating"] for r in brand_ops_revs) / len(brand_ops_revs) if brand_ops_revs else 0
-        non_ops_rating = sum(r["rating"] for r in brand_revs if not r["has_logistic_mention"]) / max(len([r for r in brand_revs if not r["has_logistic_mention"]]), 1)
+        non_ops_rating = sum(r["rating"] for r in brand_revs if r not in brand_ops_revs) / max(len([r for r in brand_revs if r not in brand_ops_revs]), 1)
 
         results[brand] = {
             "total_operational_mentions": total_ops_revs,
@@ -487,7 +493,7 @@ def analyze_06_feature_requests(reviews):
 
     results = {}
     for brand in ["somethinc", "skintific"]:
-        brand_revs = [r for r in reviews if r["brand"] and r["has_feature_request"]]
+        brand_revs = [r for r in reviews if r["brand"] == brand and r["has_feature_request"]]
 
         cat_results = {}
         for cat, keywords in categories.items():
